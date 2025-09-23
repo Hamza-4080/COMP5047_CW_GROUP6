@@ -1,0 +1,46 @@
+23/9/2025
+14:00-14:30
+
+Attendances:
+Hamza
+Mohammad
+Luke
+Josh
+
+Agenda:
+
+For each group member:
+- Read coursework specification
+- Read coursework case study
+
+For group:
+- Allocate a subsystem to each member
+- Each member report functional requirements of their selected subsystem
+- Discuss what data is required by one subsystem but must be provided by other subsystems for all subsystems
+
+Minutes:
+
+- All members read and understood coursework specification and case study
+- Subsystems allocated:
+  1)	USU Student App -> Josh
+  2)	Student Union Management System -> Mohammad
+  3)	USU Operation System -> Hamza
+  4)	Society Leader App -> Luke
+
+- All members reported, discussed and explained the functional requirements of their selected subsystem
+
+-Data required by subsystems from other subsystems:
+  - 1)	USU Student App: To be added (Refer to list of actions to be taken)
+
+  - 2)	Student Union Management System: From USU Student App, needs IDs, names, etc; From Society Leader App, needs membership lists to see which society students are in; From USU Operation System, needs application outcome (approved or not etc)
+
+  - 3)	USU Operation System: From Student Union Management System, Basic data about the student union, such as name and address of the university that the student union is hosted and URL of the student union’s website etc; From USU Student App, Union representative personnel, include the name, contact details, student identifiers, and the roles in the union, and USU system user IDs as students and Delegated union officers, including their names, contact details, and user IDs in USU system as students etc
+
+  - 4) Society Leader App: From USU Student App, needs IDs, names, what societies they're in etc; From Student Union Management System, needs society name, society leader, society status (approved or terminated etc)
+
+
+Actions to be taken:
+-Josh: Add data required by his subsystem from other subsystems
+
+Issues to be solved:
+-No issues
