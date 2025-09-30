@@ -30,7 +30,7 @@ Minutes:
 - All members reported, discussed and explained the functional requirements of their selected subsystem
 
 -Data required by subsystems from other subsystems:
-  - 1)	USU Student App: To be added (Refer to list of actions to be taken)
+  - 1)	USU Student App: To be added From Society leader app, memberships that students can sign up to, details about each society that are available; From USU Operation System, Application outcome of joining society; From Student Union Management, list of societies that the person using the app is already part of.
 
   - 2)	Student Union Management System: From USU Student App, needs IDs, names, etc; From Society Leader App, needs membership lists to see which society students are in; From USU Operation System, needs application outcome (approved or not etc)
 
@@ -40,7 +40,7 @@ Minutes:
 
 
 Actions to be taken:
--Josh: Add data required by his subsystem from other subsystems
+-Josh: Add data required by his subsystem from other subsystems: Resolved
 
 Issues to be solved:
 -No issues
