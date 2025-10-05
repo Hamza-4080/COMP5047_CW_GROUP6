@@ -1,0 +1,26 @@
+Student Union Management – Brief Notes
+
+Security
+	•	Students name, email and student id should be stored securely using encryption.
+	•	Data which is sensitive should only be allowed to be accessed by authorised users.
+
+⸻
+
+Performance
+	•	Registration pages for students should load quickly and efficiently.
+	•	Create better more efficient optimised code to reduce load time on the data base.
+
+⸻
+
+Reliability
+	•	The registration should be backed up ensuring no data loss.
+	•	Should alert the user if registration is successful or not immediately.
+
+⸻
+
+Scalability
+	•	Data base should allow students names to be stored in society or events they have signed up for without delay or slowing down.
+	•	Would need to allow thousands of student to register whilst allowing officer to modify data.
+	•	Allow students name to be linked and connected to multiple societies clubs or events the student takes part in.
+
+Where do I add this? This is all I’ve done so far just notes and stuff for section 2 and so we have something for weekly meeting notes
