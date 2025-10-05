@@ -1,0 +1,40 @@
+5/10/2025
+15:00-16:00
+
+Attendances:
+Hamza
+Mohammad
+Josh
+
+Absentee:
+Luke - Communicated that he had work, did sent his progress so far
+
+Agenda:
+For Hamza:
+- Make folder to put all members' task 2 documents in
+
+For each group member:
+- Upload task 2 work so far on github repo
+- Share progress on report (mainly task 2) so far
+- Discuss and give feedback on each other's work
+- Plan work to be done before next meeting
+
+Minutes:
+- Made folder in repo and uploaded task 2 work
+- Every member shared their progress
+  - All members gave feedback to each other for corrections and minor improvements
+  - Some of the work was too broad (about the whole subsystem and not one specific functional requirement), group members got clarity and clarified for each other the requirements for this section.
+
+- Discussed that subsystem co-operation needs to be a vital part of all our work from now on
+
+Actions to be taken:
+- Josh, Mohammad and Luke: 
+  - Modify work to make it specific to one functional requirement
+  - Add measurable quantitative values to performance metrics (such as page loading times)
+
+- All members:
+  - Finalise task 2 before next meeting
+  - Once all members have finalised their quality requirements, discuss in a future meeting about features/requirements on each members' subsystem that might need to be modified to allow transfer of data between subsystem
+
+Issues to be solved:
+- Nothing that hasn't been covered in actions to be taken
