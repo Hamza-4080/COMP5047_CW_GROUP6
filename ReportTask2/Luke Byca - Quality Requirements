@@ -1,0 +1,45 @@
+Society Leader app
+
+FR-SL-2: Management of Events
+Security and Privacy Protection
+Only legitimate society leaders will be able to access the app making sure normal people cannot.
+Reason - Ensures fake events cannot be made
+
+All event data will be encrypted
+Reason - User data is kept private
+
+All uploads will be scanned for virus and malware
+Reason - ensures no malware is uploaded
+
+Personal details will only be visible to the correct people to comply with GDPR laws
+Reason - Follows lawful processing of user data
+
+Performance
+Creation of events should be able to be uploaded in a few seconds once upload button is pressed
+Reason - smooth user experience 
+
+App must be able to compress uploaded documents like photos and videos
+Reason - prevents upload time throttling 
+
+The system should handle 100+ simultaneous events being created.
+Reason - 100 will never be created at once but is future proof.
+
+Reliability
+The app should have an uptime in the high 90%s per month
+Reason - ensures system can be accessed and used practically any time
+
+If network connection fails app should be able to cache event data locally until connection is restored
+Reason - prevents data loss
+
+Event data should be backed up daily
+Reason - if the system crashes data can be restored
+
+Scalability
+Must be able to scale horizontally to handle more simultaneous event creations
+Reason - increased capacity 
+
+Should be able to store hundreds of thousands if events to futureproof for years to come 
+
+
+
+
