@@ -2,44 +2,53 @@ Society Leader app
 
 FR-SL-2: Management of Events
 Security and Privacy Protection
-Only legitimate society leaders will be able to access the app making sure normal people cannot.
+Only legitimate and authenticated society leaders will be able to access the app making sure normal people cannot. The system must therefore enforce role based access control that only the correct users can access.
 Reason - Ensures fake events cannot be made
 
-All event data will be encrypted
+All event data will be encrypted, such as event details and participant lists.
 Reason - User data is kept private
 
-All uploads will be scanned for virus and malware
+All uploads will be scanned for virus and malware, to ensure this only preauthorised file types will be allowed, eg MP4, JPEG.
 Reason - ensures no malware is uploaded
 
 Personal details will only be visible to the correct people to comply with GDPR laws
 Reason - Follows lawful processing of user data
 
 Performance
-Creation of events should be able to be uploaded in a few seconds once upload button is pressed
+Creation of events should be able to be uploaded in 3 seconds or less once upload button is pressed
 Reason - smooth user experience 
 
-App must be able to compress uploaded documents like photos and videos
-Reason - prevents upload time throttling 
+App must be able to compress uploaded documents like photos and videos and must not lose more than 15% of the original resolution
+Reason - prevents long upload time and bandwidth bottlenecks 
 
-The system should handle 100+ simultaneous events being created.
-Reason - 100 will never be created at once but is future proof.
+The system should handle 100+ simultaneous events being created without serious performance issues.
+Reason - Future proof for growth in number of societies and users
+
+When data is requested it would be executed and shown within 3 seconds.
+Reason - retains efficiency and makes sure tasks don’t get backed up when multiple requests are made at the same time.
 
 Reliability
-The app should have an uptime in the high 90%s per month
+The app should have an uptime of over 98% per month excluding planned maintenance reasons.
 Reason - ensures system can be accessed and used practically any time
 
-If network connection fails app should be able to cache event data locally until connection is restored
-Reason - prevents data loss
+If network connection fails app should be able to cache event data locally until connection is restored and then automatically reupload it
+Reason - prevents data loss and gives users confidence in the system
 
-Event data should be backed up daily
-Reason - if the system crashes data can be restored
+Event data should be backed up per 24hrs
+Reason - if the system crashes data can be restored therefore preventing permanent loss.
 
 Scalability
-Must be able to scale horizontally to handle more simultaneous event creations
-Reason - increased capacity 
+Must be able to scale horizontally to handle more simultaneous event creations and a greater number of users
+Reason - increased capacity for future growth without excessive redesign.
 
-Should be able to store hundreds of thousands if events to futureproof for years to come 
+Should be able to store 1 million event records with no change in app performance.
+Reason - future proofs the app for future increases in capacity.
 
+Loads should be balanced across a balancer to prevent server overload during peak usage hours.
+Reason - Will allow for consistent performance during the highest periods of demand.
+
+Communication between my app and the USU system will use APIs that can handle at least 7500 requests per minute.
+Reason - Ensures scalability for the future
 
 
 
