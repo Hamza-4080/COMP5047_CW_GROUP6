@@ -1,26 +1,33 @@
-Student Union Management – Brief Notes
+My chosen functional requirement: FR-UO-5 – management of union events:
+Security and privacy- how a system protects the information and ensures only authorises users are allowed access to it making sure its secure.
 
-Security
-	•	Students name, email and student id should be stored securely using encryption.
-	•	Data which is sensitive should only be allowed to be accessed by authorised users.
+Authentication – only an authenticated union officer is allowed to access creating an event management page. This is to be done using a secure login using email or passwords which consist of 2 factor authentication or making sure a strong password is used. Can use a bypass attempt by trying to login without second factor and my access should be blocked.
+Role based access or permission: this is to be done by officers having specific roles such as an individual who organises events like an event coordinator. They should be able to edit delete or approve events based on what their roles allows within their limit.
+Data encryption: all data should use strong encryption and secure communication. This is to protect sensitive information and keeping it secure. 
+activity logging – every action should be logged, such as creating event. Editing and deleting event should be logged with timestamps, date, user id and type of action that was taken.
+GDPR compliance and privacy- Personal data of student or organiser should be kept to a minimal amount. It should only be allowed to be accessed or seen by a role that has authorisation. If asked to be erased it should be done within 30 days upon the request. 
 
-⸻
+Performance – Efficiency the system completes tasks using resources it is given, within a certain time frame.
+Load time of page – creating events and listing pages should load under 2 seconds. This can be tested using browser performance tools like webpage test or google chrome dev tools.
+Upload speed – images and videos less than 50 mb should upload and process inside 5 seconds.
+Current users- the system should be able to handle more than 20 union officers making changes to an event at the same time. This is to be done without a delay of more than a second.
+Confirmation/notifications- upon events being updated or accounts being created, an email notification should reach the intended recipient within 60 seconds.
+response time- API requests should have an average response time of less than 500 Ms. This can be monitored and verified using performance management tools.
 
-Performance
-	•	Registration pages for students should load quickly and efficiently.
-	•	Create better more efficient optimised code to reduce load time on the data base.
+Reliability – this is how reliable a system is meaning if a system can perform the tasks required in conditions which it is said to have been able to handle for a specified time it had stated. This to be done without slowing down or failing.
 
-⸻
+System uptime – system must maintain an uptime of at least 99.5% a month not including scheduled maintenance. Once again this can be measures using monitoring tools. E.g. uptime records.
 
-Reliability
-	•	The registration should be backed up ensuring no data loss.
-	•	Should alert the user if registration is successful or not immediately.
+Suto save- System must be able to save the last piece of changes made without being told to. In case of crashing and to prevent data loss so should make saves every 30 seconds ensuring its reliable. This can be tested though UI tests.
 
-⸻
+Error handling – in the event the system fails to make saves it should keep trying at least 3 times before outputting an error message. System should be alerting the user to make manual saves and warning them data loss could happen. You should run tests by failing on purpose to make sure system outputs message.
 
-Scalability
-	•	Data base should allow students names to be stored in society or events they have signed up for without delay or slowing down.
-	•	Would need to allow thousands of student to register whilst allowing officer to modify data.
-	•	Allow students name to be linked and connected to multiple societies clubs or events the student takes part in.
+Failure rate threshold – This is how many times a system is allowed to fail per year. It should be less than 5 times a year, this can be tested by checking incident reports.
 
-Where do I add this? This is all I’ve done so far just notes and stuff for section 2 and so we have something for weekly meeting notes
+
+Scalability – Ability of a system to be able to handle extreme loads. For example, more data and events added. This is to be done without having to slow down or lose out on performance and reliability.
+
+User load handling – the system should be an able to support at least 100 active users making changes adding or deleting events at the same time. We can test this by using load testing tools to run a simulation of having multiple active users at once and increase them slowly. This will be making sure its scalable.
+Data handling – system should be able to handle the data base having up to 10000 events stored at once without the system slowing down. It should also ensure this is done without API response time decreasing and effecting user usage. 
+Resource adjustment - system should adjust resources like CPU memory and storage when loads increase more than 80% so the system remains smooth without slowing down.  
+
