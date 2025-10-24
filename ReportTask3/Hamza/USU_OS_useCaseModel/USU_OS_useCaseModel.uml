@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_Z7KvQKoEEfCc4PtY3mMJpw" name="USU_OS_useCaseModel" visibility="private">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_Z-RGkKoEEfCc4PtY3mMJpw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Component" xmi:id="_8-a2oKoEEfCc4PtY3mMJpw" name="USU Operation System" useCase="_EXRTgKoFEfCc4PtY3mMJpw _eTx5oK63EfCpu9OFFpzJxA _kLi-QK63EfCpu9OFFpzJxA _lw39UK63EfCpu9OFFpzJxA _xY7lkK63EfCpu9OFFpzJxA _2-KIsK63EfCpu9OFFpzJxA _7y3_cK64EfCpu9OFFpzJxA">
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_EXRTgKoFEfCc4PtY3mMJpw" name="Approve USU Membership" subject="_8-a2oKoEEfCc4PtY3mMJpw">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_37iPkK66EfCpu9OFFpzJxA" name="ExtensionPoint2"/>
+      <include xmi:type="uml:Include" xmi:id="_N_GC0K66EfCpu9OFFpzJxA" addition="_eTx5oK63EfCpu9OFFpzJxA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_eTx5oK63EfCpu9OFFpzJxA" name="Approve Updates to USU Data" subject="_8-a2oKoEEfCc4PtY3mMJpw"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_kLi-QK63EfCpu9OFFpzJxA" name="Approve Termination of Membership" subject="_8-a2oKoEEfCc4PtY3mMJpw">
+      <extend xmi:type="uml:Extend" xmi:id="_37hBcK66EfCpu9OFFpzJxA" extendedCase="_EXRTgKoFEfCc4PtY3mMJpw" extensionLocation="_37iPkK66EfCpu9OFFpzJxA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_lw39UK63EfCpu9OFFpzJxA" name="Create USU Event" subject="_8-a2oKoEEfCc4PtY3mMJpw">
+      <include xmi:type="uml:Include" xmi:id="_KfUT0K67EfCpu9OFFpzJxA" addition="_xY7lkK63EfCpu9OFFpzJxA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_xY7lkK63EfCpu9OFFpzJxA" name="Announce / Update Event Progress" subject="_8-a2oKoEEfCc4PtY3mMJpw">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_5HrnsK68EfCpu9OFFpzJxA" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_A3mgwK69EfCpu9OFFpzJxA" name="ExtensionPoint2"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_2-KIsK63EfCpu9OFFpzJxA" name="Student Participation in Events" subject="_8-a2oKoEEfCc4PtY3mMJpw">
+      <extend xmi:type="uml:Extend" xmi:id="_5HqZkK68EfCpu9OFFpzJxA" extendedCase="_xY7lkK63EfCpu9OFFpzJxA" extensionLocation="_5HrnsK68EfCpu9OFFpzJxA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_7y3_cK64EfCpu9OFFpzJxA" name="Union Participation in Events" subject="_8-a2oKoEEfCc4PtY3mMJpw">
+      <extend xmi:type="uml:Extend" xmi:id="_A3l5sK69EfCpu9OFFpzJxA" extendedCase="_xY7lkK63EfCpu9OFFpzJxA" extensionLocation="_A3mgwK69EfCpu9OFFpzJxA"/>
+    </ownedUseCase>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_Es7zkK69EfCpu9OFFpzJxA" name="USU Operators"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_SC3S4K69EfCpu9OFFpzJxA" memberEnd="_SC8ycK69EfCpu9OFFpzJxA _SC-noK69EfCpu9OFFpzJxA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_SC7kUK69EfCpu9OFFpzJxA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_SC8LYK69EfCpu9OFFpzJxA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_SC8ycK69EfCpu9OFFpzJxA" name="approve usu membership" type="_EXRTgKoFEfCc4PtY3mMJpw" association="_SC3S4K69EfCpu9OFFpzJxA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_SC-noK69EfCpu9OFFpzJxA" name="usu operator" type="_Es7zkK69EfCpu9OFFpzJxA" association="_SC3S4K69EfCpu9OFFpzJxA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_-_rgYK69EfCpu9OFFpzJxA" memberEnd="_-_sugq69EfCpu9OFFpzJxA _-_tVkK69EfCpu9OFFpzJxA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-_sugK69EfCpu9OFFpzJxA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-_suga69EfCpu9OFFpzJxA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_-_sugq69EfCpu9OFFpzJxA" name="approve termination of membership" type="_kLi-QK63EfCpu9OFFpzJxA" association="_-_rgYK69EfCpu9OFFpzJxA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_-_tVkK69EfCpu9OFFpzJxA" type="_Es7zkK69EfCpu9OFFpzJxA" association="_-_rgYK69EfCpu9OFFpzJxA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_GZ7EYK6-EfCpu9OFFpzJxA" memberEnd="_GZ7rcq6-EfCpu9OFFpzJxA _GZ7rc66-EfCpu9OFFpzJxA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GZ7rcK6-EfCpu9OFFpzJxA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GZ7rca6-EfCpu9OFFpzJxA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_GZ7rcq6-EfCpu9OFFpzJxA" name="approve updates to usu data" type="_eTx5oK63EfCpu9OFFpzJxA" association="_GZ7EYK6-EfCpu9OFFpzJxA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_GZ7rc66-EfCpu9OFFpzJxA" type="_Es7zkK69EfCpu9OFFpzJxA" association="_GZ7EYK6-EfCpu9OFFpzJxA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_N4o4sK6-EfCpu9OFFpzJxA" memberEnd="_N4pfwq6-EfCpu9OFFpzJxA _N4qG0K6-EfCpu9OFFpzJxA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_N4pfwK6-EfCpu9OFFpzJxA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_N4pfwa6-EfCpu9OFFpzJxA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_N4pfwq6-EfCpu9OFFpzJxA" name="create usu event" type="_lw39UK63EfCpu9OFFpzJxA" association="_N4o4sK6-EfCpu9OFFpzJxA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_N4qG0K6-EfCpu9OFFpzJxA" name="usu operator" type="_Es7zkK69EfCpu9OFFpzJxA" association="_N4o4sK6-EfCpu9OFFpzJxA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_QzanwK6-EfCpu9OFFpzJxA" memberEnd="_QzbO0q6-EfCpu9OFFpzJxA _QzbO066-EfCpu9OFFpzJxA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QzbO0K6-EfCpu9OFFpzJxA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QzbO0a6-EfCpu9OFFpzJxA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_QzbO0q6-EfCpu9OFFpzJxA" name="announce / update event progress" type="_xY7lkK63EfCpu9OFFpzJxA" association="_QzanwK6-EfCpu9OFFpzJxA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_QzbO066-EfCpu9OFFpzJxA" name="usu operator" type="_Es7zkK69EfCpu9OFFpzJxA" association="_QzanwK6-EfCpu9OFFpzJxA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_rSakMK7AEfCpu9OFFpzJxA" name="USU Portal Website"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_u0eVsK7AEfCpu9OFFpzJxA" memberEnd="_u0e8wK7AEfCpu9OFFpzJxA _u0e8wa7AEfCpu9OFFpzJxA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_u0eVsa7AEfCpu9OFFpzJxA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_u0eVsq7AEfCpu9OFFpzJxA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_u0e8wK7AEfCpu9OFFpzJxA" name="usu portal website" type="_rSakMK7AEfCpu9OFFpzJxA" association="_u0eVsK7AEfCpu9OFFpzJxA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_u0e8wa7AEfCpu9OFFpzJxA" name="announce / update event progress" type="_xY7lkK63EfCpu9OFFpzJxA" association="_u0eVsK7AEfCpu9OFFpzJxA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_XC13EK7BEfCpu9OFFpzJxA" name="Union Officers"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_dzGp8K7BEfCpu9OFFpzJxA" memberEnd="_dzHRAq7BEfCpu9OFFpzJxA _dzHRA67BEfCpu9OFFpzJxA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dzHRAK7BEfCpu9OFFpzJxA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dzHRAa7BEfCpu9OFFpzJxA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_dzHRAq7BEfCpu9OFFpzJxA" name="union officers" type="_XC13EK7BEfCpu9OFFpzJxA" association="_dzGp8K7BEfCpu9OFFpzJxA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_dzHRA67BEfCpu9OFFpzJxA" name="union participation in events" type="_7y3_cK64EfCpu9OFFpzJxA" association="_dzGp8K7BEfCpu9OFFpzJxA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_ncfmEK7BEfCpu9OFFpzJxA" name="Students"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_rP8pkK7BEfCpu9OFFpzJxA" memberEnd="_rP9Qoq7BEfCpu9OFFpzJxA _rP9Qo67BEfCpu9OFFpzJxA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rP9QoK7BEfCpu9OFFpzJxA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_rP9Qoa7BEfCpu9OFFpzJxA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_rP9Qoq7BEfCpu9OFFpzJxA" name="students" type="_ncfmEK7BEfCpu9OFFpzJxA" association="_rP8pkK7BEfCpu9OFFpzJxA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_rP9Qo67BEfCpu9OFFpzJxA" name="student participation in events" type="_8-a2oKoEEfCc4PtY3mMJpw" association="_rP8pkK7BEfCpu9OFFpzJxA"/>
+  </packagedElement>
+</uml:Model>
