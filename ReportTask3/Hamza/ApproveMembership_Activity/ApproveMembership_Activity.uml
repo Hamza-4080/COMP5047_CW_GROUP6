@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_pdflwK7HEfCpu9OFFpzJxA" name="ApproveMembership_Activity">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_pgIqEK7HEfCpu9OFFpzJxA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_pfwPkK7HEfCpu9OFFpzJxA" name="Approve USU Membership Activity Diagram" node="_I1MWgK7KEfCpu9OFFpzJxA _0lVcoK9mEfCNbPhsvUcm0Q _5yfeAK9mEfCNbPhsvUcm0Q _IJgKYK9oEfCNbPhsvUcm0Q _5A-PkK9oEfCNbPhsvUcm0Q _ZZSasK9pEfCNbPhsvUcm0Q _HCLEAK9qEfCNbPhsvUcm0Q _cuysAK9rEfCNbPhsvUcm0Q _Iilb8K9sEfCNbPhsvUcm0Q _aquGAK9sEfCNbPhsvUcm0Q _z1ZT0K9uEfCNbPhsvUcm0Q _CRTjwK9vEfCNbPhsvUcm0Q _LnP_cK9vEfCNbPhsvUcm0Q _B8xBsK9wEfCNbPhsvUcm0Q" group="_S5jCQK7IEfCpu9OFFpzJxA _5wqnYK7JEfCpu9OFFpzJxA">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_pqm_AK9nEfCNbPhsvUcm0Q" target="_0lVcoK9mEfCNbPhsvUcm0Q" source="_I1MWgK7KEfCpu9OFFpzJxA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_rxiPQK9nEfCNbPhsvUcm0Q" inPartition="_5wqnYK7JEfCpu9OFFpzJxA" target="_5yfeAK9mEfCNbPhsvUcm0Q" source="_0lVcoK9mEfCNbPhsvUcm0Q"/>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_W2uMwK9oEfCNbPhsvUcm0Q" target="_IJgKYK9oEfCNbPhsvUcm0Q" source="_W2yeMK9oEfCNbPhsvUcm0Q">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_W239wK9oEfCNbPhsvUcm0Q" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_W239wa9oEfCNbPhsvUcm0Q" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_B_qB0K9pEfCNbPhsvUcm0Q" target="_B_qo4K9pEfCNbPhsvUcm0Q" source="_IJgKYK9oEfCNbPhsvUcm0Q">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_B_wvgK9pEfCNbPhsvUcm0Q" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_B_wvga9pEfCNbPhsvUcm0Q" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_fnK5QK9pEfCNbPhsvUcm0Q" inPartition="_S5jCQK7IEfCpu9OFFpzJxA" target="_ZZSasK9pEfCNbPhsvUcm0Q" source="_5A-PkK9oEfCNbPhsvUcm0Q"/>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_jp3nwK9rEfCNbPhsvUcm0Q" target="_cuysAK9rEfCNbPhsvUcm0Q" source="_jp4O0K9rEfCNbPhsvUcm0Q">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_jp_jkK9rEfCNbPhsvUcm0Q" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_jp_jka9rEfCNbPhsvUcm0Q" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_39IsoK9rEfCNbPhsvUcm0Q" target="_HCLEAK9qEfCNbPhsvUcm0Q" source="_cuysAK9rEfCNbPhsvUcm0Q">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_39PaUK9rEfCNbPhsvUcm0Q" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_39PaUa9rEfCNbPhsvUcm0Q" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_QOZREK9sEfCNbPhsvUcm0Q" name="[Approved]" inPartition="_5wqnYK7JEfCpu9OFFpzJxA" target="_Iilb8K9sEfCNbPhsvUcm0Q" source="_HCLEAK9qEfCNbPhsvUcm0Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ufWuIK9sEfCNbPhsvUcm0Q" inPartition="_5wqnYK7JEfCpu9OFFpzJxA" target="_aquGAK9sEfCNbPhsvUcm0Q" source="_Iilb8K9sEfCNbPhsvUcm0Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_HtCMoK9vEfCNbPhsvUcm0Q" inPartition="_5wqnYK7JEfCpu9OFFpzJxA" target="_z1ZT0K9uEfCNbPhsvUcm0Q" source="_aquGAK9sEfCNbPhsvUcm0Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_IMP4MK9vEfCNbPhsvUcm0Q" inPartition="_5wqnYK7JEfCpu9OFFpzJxA" target="_CRTjwK9vEfCNbPhsvUcm0Q" source="_z1ZT0K9uEfCNbPhsvUcm0Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Tl_-sK9vEfCNbPhsvUcm0Q" inPartition="_5wqnYK7JEfCpu9OFFpzJxA" target="_LnP_cK9vEfCNbPhsvUcm0Q" source="_CRTjwK9vEfCNbPhsvUcm0Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_WiYQQK9vEfCNbPhsvUcm0Q" name="[Rejected]" inPartition="_5wqnYK7JEfCpu9OFFpzJxA" target="_LnP_cK9vEfCNbPhsvUcm0Q" source="_HCLEAK9qEfCNbPhsvUcm0Q"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_LUBE8K9wEfCNbPhsvUcm0Q" target="_B8xBsK9wEfCNbPhsvUcm0Q" source="_LnP_cK9vEfCNbPhsvUcm0Q"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_S5jCQK7IEfCpu9OFFpzJxA" name="USU Operator" node="_5A-PkK9oEfCNbPhsvUcm0Q _ZZSasK9pEfCNbPhsvUcm0Q" edge="_fnK5QK9pEfCNbPhsvUcm0Q"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_5wqnYK7JEfCpu9OFFpzJxA" name="USU Operation System" node="_0lVcoK9mEfCNbPhsvUcm0Q _5yfeAK9mEfCNbPhsvUcm0Q _HCLEAK9qEfCNbPhsvUcm0Q _Iilb8K9sEfCNbPhsvUcm0Q _aquGAK9sEfCNbPhsvUcm0Q _z1ZT0K9uEfCNbPhsvUcm0Q _CRTjwK9vEfCNbPhsvUcm0Q _LnP_cK9vEfCNbPhsvUcm0Q" edge="_rxiPQK9nEfCNbPhsvUcm0Q _QOZREK9sEfCNbPhsvUcm0Q _ufWuIK9sEfCNbPhsvUcm0Q _HtCMoK9vEfCNbPhsvUcm0Q _IMP4MK9vEfCNbPhsvUcm0Q _Tl_-sK9vEfCNbPhsvUcm0Q _WiYQQK9vEfCNbPhsvUcm0Q"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_I1MWgK7KEfCpu9OFFpzJxA" name="" outgoing="_pqm_AK9nEfCNbPhsvUcm0Q"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_0lVcoK9mEfCNbPhsvUcm0Q" name="Recieve Membership Application" incoming="_pqm_AK9nEfCNbPhsvUcm0Q" outgoing="_rxiPQK9nEfCNbPhsvUcm0Q" inPartition="_5wqnYK7JEfCpu9OFFpzJxA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_5yfeAK9mEfCNbPhsvUcm0Q" name="Display Application to Operator  " incoming="_rxiPQK9nEfCNbPhsvUcm0Q" inPartition="_5wqnYK7JEfCpu9OFFpzJxA">
+      <outputValue xmi:type="uml:OutputPin" xmi:id="_W2yeMK9oEfCNbPhsvUcm0Q" name="" outgoing="_W2uMwK9oEfCNbPhsvUcm0Q">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_W2zFQK9oEfCNbPhsvUcm0Q" value="1"/>
+      </outputValue>
+    </node>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_IJgKYK9oEfCNbPhsvUcm0Q" name="Application Data" incoming="_W2uMwK9oEfCNbPhsvUcm0Q" outgoing="_B_qB0K9pEfCNbPhsvUcm0Q">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_IJh_kK9oEfCNbPhsvUcm0Q" value="1"/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_5A-PkK9oEfCNbPhsvUcm0Q" name="Review Application" outgoing="_fnK5QK9pEfCNbPhsvUcm0Q" inPartition="_S5jCQK7IEfCpu9OFFpzJxA">
+      <inputValue xmi:type="uml:InputPin" xmi:id="_B_qo4K9pEfCNbPhsvUcm0Q" name="" incoming="_B_qB0K9pEfCNbPhsvUcm0Q">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_B_rP8K9pEfCNbPhsvUcm0Q" value="1"/>
+      </inputValue>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_ZZSasK9pEfCNbPhsvUcm0Q" name="Evaluate Application" incoming="_fnK5QK9pEfCNbPhsvUcm0Q" inPartition="_S5jCQK7IEfCpu9OFFpzJxA">
+      <outputValue xmi:type="uml:OutputPin" xmi:id="_jp4O0K9rEfCNbPhsvUcm0Q" name="" outgoing="_jp3nwK9rEfCNbPhsvUcm0Q">
+        <upperBound xmi:type="uml:LiteralInteger" xmi:id="_jp414K9rEfCNbPhsvUcm0Q" value="1"/>
+      </outputValue>
+    </node>
+    <node xmi:type="uml:DecisionNode" xmi:id="_HCLEAK9qEfCNbPhsvUcm0Q" name="" incoming="_39IsoK9rEfCNbPhsvUcm0Q" outgoing="_QOZREK9sEfCNbPhsvUcm0Q _WiYQQK9vEfCNbPhsvUcm0Q" inPartition="_5wqnYK7JEfCpu9OFFpzJxA"/>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_cuysAK9rEfCNbPhsvUcm0Q" name="Approval Decision" incoming="_jp3nwK9rEfCNbPhsvUcm0Q" outgoing="_39IsoK9rEfCNbPhsvUcm0Q">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_cuysAa9rEfCNbPhsvUcm0Q" value="1"/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_Iilb8K9sEfCNbPhsvUcm0Q" name="Store Applicant's Registration data" incoming="_QOZREK9sEfCNbPhsvUcm0Q" outgoing="_ufWuIK9sEfCNbPhsvUcm0Q" inPartition="_5wqnYK7JEfCpu9OFFpzJxA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_aquGAK9sEfCNbPhsvUcm0Q" name="Grant Required System Access to Union Officers" incoming="_ufWuIK9sEfCNbPhsvUcm0Q" outgoing="_HtCMoK9vEfCNbPhsvUcm0Q" inPartition="_5wqnYK7JEfCpu9OFFpzJxA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_z1ZT0K9uEfCNbPhsvUcm0Q" name="Activate Applicant's Union Account" incoming="_HtCMoK9vEfCNbPhsvUcm0Q" outgoing="_IMP4MK9vEfCNbPhsvUcm0Q" inPartition="_5wqnYK7JEfCpu9OFFpzJxA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_CRTjwK9vEfCNbPhsvUcm0Q" name="Allow Union Participation in USU Events" incoming="_IMP4MK9vEfCNbPhsvUcm0Q" outgoing="_Tl_-sK9vEfCNbPhsvUcm0Q" inPartition="_5wqnYK7JEfCpu9OFFpzJxA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_LnP_cK9vEfCNbPhsvUcm0Q" name="Notify Applicant" incoming="_Tl_-sK9vEfCNbPhsvUcm0Q _WiYQQK9vEfCNbPhsvUcm0Q" outgoing="_LUBE8K9wEfCNbPhsvUcm0Q" inPartition="_5wqnYK7JEfCpu9OFFpzJxA"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_B8xBsK9wEfCNbPhsvUcm0Q" name="" incoming="_LUBE8K9wEfCNbPhsvUcm0Q"/>
+  </packagedElement>
+</uml:Model>
