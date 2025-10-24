@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_ya5dwK2XEfClRYQROYLOGA" name="task 3a pap">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_yjjDcK2XEfClRYQROYLOGA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Component" xmi:id="_4w6koK2XEfClRYQROYLOGA" name="USU studnt app" useCase="_HPwMwK2YEfClRYQROYLOGA _KMDl0K2YEfClRYQROYLOGA _KqIB4K2YEfClRYQROYLOGA _LN3BEK2YEfClRYQROYLOGA _iDulkK2YEfClRYQROYLOGA _jzujkK2YEfClRYQROYLOGA _mgXI8K2YEfClRYQROYLOGA _ulCxEK2YEfClRYQROYLOGA _yI-8cK2ZEfClRYQROYLOGA _-4Vj8K2ZEfClRYQROYLOGA _HBHo8K2aEfClRYQROYLOGA _TINWkK2aEfClRYQROYLOGA _XDrtoK2aEfClRYQROYLOGA _cHtBIK2aEfClRYQROYLOGA _gL7rkK2aEfClRYQROYLOGA _jkTVkK2aEfClRYQROYLOGA _lAr0AK2aEfClRYQROYLOGA _vb51sK2aEfClRYQROYLOGA _ye6TsK2aEfClRYQROYLOGA _29szMK2aEfClRYQROYLOGA _6e1-sK2aEfClRYQROYLOGA _POsR4K2bEfClRYQROYLOGA _XreQ8K2bEfClRYQROYLOGA _bpgz0K2bEfClRYQROYLOGA _1gmtoK2bEfClRYQROYLOGA">
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_HPwMwK2YEfClRYQROYLOGA" name="Accunt management" subject="_4w6koK2XEfClRYQROYLOGA">
+      <include xmi:type="uml:Include" xmi:id="_qAQXQK2YEfClRYQROYLOGA" addition="_iDulkK2YEfClRYQROYLOGA"/>
+      <include xmi:type="uml:Include" xmi:id="_q7TDMK2YEfClRYQROYLOGA" addition="_jzujkK2YEfClRYQROYLOGA"/>
+      <include xmi:type="uml:Include" xmi:id="_rq7wYK2YEfClRYQROYLOGA" addition="_mgXI8K2YEfClRYQROYLOGA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_KMDl0K2YEfClRYQROYLOGA" name="Society management" subject="_4w6koK2XEfClRYQROYLOGA">
+      <include xmi:type="uml:Include" xmi:id="_1sWVgK2ZEfClRYQROYLOGA" addition="_yI-8cK2ZEfClRYQROYLOGA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_KqIB4K2YEfClRYQROYLOGA" name="Event management" subject="_4w6koK2XEfClRYQROYLOGA">
+      <include xmi:type="uml:Include" xmi:id="_eIudsK2aEfClRYQROYLOGA" addition="_cHtBIK2aEfClRYQROYLOGA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_LN3BEK2YEfClRYQROYLOGA" name="Notification System" subject="_4w6koK2XEfClRYQROYLOGA">
+      <include xmi:type="uml:Include" xmi:id="_VxXxMK2aEfClRYQROYLOGA" addition="_TINWkK2aEfClRYQROYLOGA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_iDulkK2YEfClRYQROYLOGA" name="Registration" subject="_4w6koK2XEfClRYQROYLOGA">
+      <extend xmi:type="uml:Extend" xmi:id="_SvP5cK2ZEfClRYQROYLOGA" extendedCase="_ulCxEK2YEfClRYQROYLOGA" extensionLocation="_SvVZAK2ZEfClRYQROYLOGA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_jzujkK2YEfClRYQROYLOGA" name="Update details" subject="_4w6koK2XEfClRYQROYLOGA">
+      <include xmi:type="uml:Include" xmi:id="_Rui_gK2bEfClRYQROYLOGA" addition="_29szMK2aEfClRYQROYLOGA"/>
+      <include xmi:type="uml:Include" xmi:id="_S5UwkK2bEfClRYQROYLOGA" addition="_vb51sK2aEfClRYQROYLOGA"/>
+      <include xmi:type="uml:Include" xmi:id="_Vkc6EK2bEfClRYQROYLOGA" addition="_POsR4K2bEfClRYQROYLOGA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_mgXI8K2YEfClRYQROYLOGA" name="Delete account" subject="_4w6koK2XEfClRYQROYLOGA">
+      <include xmi:type="uml:Include" xmi:id="_42L-0K2aEfClRYQROYLOGA" addition="_29szMK2aEfClRYQROYLOGA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_ulCxEK2YEfClRYQROYLOGA" name="Enter User credentials" subject="_4w6koK2XEfClRYQROYLOGA">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_SvVZAK2ZEfClRYQROYLOGA" name="ExtensionPoint1"/>
+      <include xmi:type="uml:Include" xmi:id="_xsKBEK2aEfClRYQROYLOGA" addition="_vb51sK2aEfClRYQROYLOGA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_yI-8cK2ZEfClRYQROYLOGA" name="Search for scoiety" subject="_4w6koK2XEfClRYQROYLOGA">
+      <extend xmi:type="uml:Extend" xmi:id="_GcmmoK2aEfClRYQROYLOGA" extendedCase="_-4Vj8K2ZEfClRYQROYLOGA" extensionLocation="_Gcn0wK2aEfClRYQROYLOGA"/>
+      <extend xmi:type="uml:Extend" xmi:id="_IrNMMK2aEfClRYQROYLOGA" extendedCase="_HBHo8K2aEfClRYQROYLOGA" extensionLocation="_IrNzQK2aEfClRYQROYLOGA"/>
+      <extend xmi:type="uml:Extend" xmi:id="_5MwPQK2bEfClRYQROYLOGA" extendedCase="_1gmtoK2bEfClRYQROYLOGA" extensionLocation="_5Mw2UK2bEfClRYQROYLOGA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_-4Vj8K2ZEfClRYQROYLOGA" name="Buy membership" subject="_4w6koK2XEfClRYQROYLOGA">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_Gcn0wK2aEfClRYQROYLOGA" name="ExtensionPoint1"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_HBHo8K2aEfClRYQROYLOGA" name="Cancel membership" subject="_4w6koK2XEfClRYQROYLOGA">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_IrNzQK2aEfClRYQROYLOGA" name="ExtensionPoint1"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_TINWkK2aEfClRYQROYLOGA" name="Recieve up to date notifications" subject="_4w6koK2XEfClRYQROYLOGA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_XDrtoK2aEfClRYQROYLOGA" name="Subscribe to society events" subject="_4w6koK2XEfClRYQROYLOGA">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_rIEB8K2aEfClRYQROYLOGA" name="ExtensionPoint2"/>
+      <include xmi:type="uml:Include" xmi:id="_aRFdwK2aEfClRYQROYLOGA" addition="_TINWkK2aEfClRYQROYLOGA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_cHtBIK2aEfClRYQROYLOGA" name="Search for events" subject="_4w6koK2XEfClRYQROYLOGA">
+      <extend xmi:type="uml:Extend" xmi:id="_izLaoK2aEfClRYQROYLOGA" extendedCase="_gL7rkK2aEfClRYQROYLOGA" extensionLocation="_izMowK2aEfClRYQROYLOGA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_gL7rkK2aEfClRYQROYLOGA" name="Veiw even details" subject="_4w6koK2XEfClRYQROYLOGA">
+      <extend xmi:type="uml:Extend" xmi:id="_pvAkUK2aEfClRYQROYLOGA" extendedCase="_jkTVkK2aEfClRYQROYLOGA" extensionLocation="_pvBLYK2aEfClRYQROYLOGA"/>
+      <extend xmi:type="uml:Extend" xmi:id="_qtpW0K2aEfClRYQROYLOGA" extendedCase="_lAr0AK2aEfClRYQROYLOGA" extensionLocation="_qtp94K2aEfClRYQROYLOGA"/>
+      <extend xmi:type="uml:Extend" xmi:id="_rIDa4K2aEfClRYQROYLOGA" extendedCase="_XDrtoK2aEfClRYQROYLOGA" extensionLocation="_rIEB8K2aEfClRYQROYLOGA"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_izMowK2aEfClRYQROYLOGA" name="ExtensionPoint1"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_jkTVkK2aEfClRYQROYLOGA" name="Sign up to event" subject="_4w6koK2XEfClRYQROYLOGA">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_pvBLYK2aEfClRYQROYLOGA" name="ExtensionPoint1"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_lAr0AK2aEfClRYQROYLOGA" name="Purchase event ticket" subject="_4w6koK2XEfClRYQROYLOGA">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_qtp94K2aEfClRYQROYLOGA" name="ExtensionPoint1"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_vb51sK2aEfClRYQROYLOGA" name="Email verification" subject="_4w6koK2XEfClRYQROYLOGA">
+      <extend xmi:type="uml:Extend" xmi:id="_zwWtcK2aEfClRYQROYLOGA" extendedCase="_ye6TsK2aEfClRYQROYLOGA" extensionLocation="_zwX7kK2aEfClRYQROYLOGA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_ye6TsK2aEfClRYQROYLOGA" name="Access granted" subject="_4w6koK2XEfClRYQROYLOGA">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_zwX7kK2aEfClRYQROYLOGA" name="ExtensionPoint1"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_29szMK2aEfClRYQROYLOGA" name="Log in" subject="_4w6koK2XEfClRYQROYLOGA">
+      <include xmi:type="uml:Include" xmi:id="_HhTvcK2bEfClRYQROYLOGA" addition="_vb51sK2aEfClRYQROYLOGA"/>
+      <include xmi:type="uml:Include" xmi:id="_IEoe8K2bEfClRYQROYLOGA" addition="_6e1-sK2aEfClRYQROYLOGA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_6e1-sK2aEfClRYQROYLOGA" name="Delete all data about user" subject="_4w6koK2XEfClRYQROYLOGA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_POsR4K2bEfClRYQROYLOGA" name="Account settings" subject="_4w6koK2XEfClRYQROYLOGA">
+      <extend xmi:type="uml:Extend" xmi:id="_awwm4K2bEfClRYQROYLOGA" extendedCase="_XreQ8K2bEfClRYQROYLOGA" extensionLocation="_awxN8K2bEfClRYQROYLOGA"/>
+      <extend xmi:type="uml:Extend" xmi:id="_mJDU0K2bEfClRYQROYLOGA" extendedCase="_bpgz0K2bEfClRYQROYLOGA" extensionLocation="_mJD74K2bEfClRYQROYLOGA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_XreQ8K2bEfClRYQROYLOGA" name="Change non uni email" subject="_4w6koK2XEfClRYQROYLOGA">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_awxN8K2bEfClRYQROYLOGA" name="ExtensionPoint1"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_bpgz0K2bEfClRYQROYLOGA" name="Edit name or other credentials" subject="_4w6koK2XEfClRYQROYLOGA">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_mJD74K2bEfClRYQROYLOGA" name="ExtensionPoint1"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_1gmtoK2bEfClRYQROYLOGA" name="Look at society details" subject="_4w6koK2XEfClRYQROYLOGA">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_5Mw2UK2bEfClRYQROYLOGA" name="ExtensionPoint1"/>
+    </ownedUseCase>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_-pb3MK2XEfClRYQROYLOGA" name="User"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_bBhHEK2YEfClRYQROYLOGA" memberEnd="_bByz4K2YEfClRYQROYLOGA _bB0pEK2YEfClRYQROYLOGA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bBxlwK2YEfClRYQROYLOGA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_bBxlwa2YEfClRYQROYLOGA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_bByz4K2YEfClRYQROYLOGA" name="user" type="_-pb3MK2XEfClRYQROYLOGA" association="_bBhHEK2YEfClRYQROYLOGA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_bB0pEK2YEfClRYQROYLOGA" name="accunt management" type="_HPwMwK2YEfClRYQROYLOGA" association="_bBhHEK2YEfClRYQROYLOGA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_c5sJoK2YEfClRYQROYLOGA" memberEnd="_c5swsq2YEfClRYQROYLOGA _c5sws62YEfClRYQROYLOGA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_c5swsK2YEfClRYQROYLOGA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_c5swsa2YEfClRYQROYLOGA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_c5swsq2YEfClRYQROYLOGA" name="user" type="_-pb3MK2XEfClRYQROYLOGA" association="_c5sJoK2YEfClRYQROYLOGA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_c5sws62YEfClRYQROYLOGA" name="society management" type="_KMDl0K2YEfClRYQROYLOGA" association="_c5sJoK2YEfClRYQROYLOGA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_d7b6gK2YEfClRYQROYLOGA" memberEnd="_d7chkK2YEfClRYQROYLOGA _d7chka2YEfClRYQROYLOGA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_d7b6ga2YEfClRYQROYLOGA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_d7b6gq2YEfClRYQROYLOGA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_d7chkK2YEfClRYQROYLOGA" name="user" type="_-pb3MK2XEfClRYQROYLOGA" association="_d7b6gK2YEfClRYQROYLOGA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_d7chka2YEfClRYQROYLOGA" name="event management" type="_KqIB4K2YEfClRYQROYLOGA" association="_d7b6gK2YEfClRYQROYLOGA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ezsYMK2YEfClRYQROYLOGA" memberEnd="_ezs_Qq2YEfClRYQROYLOGA _eztmUK2YEfClRYQROYLOGA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ezs_QK2YEfClRYQROYLOGA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ezs_Qa2YEfClRYQROYLOGA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ezs_Qq2YEfClRYQROYLOGA" type="_d7b6gK2YEfClRYQROYLOGA" association="_ezsYMK2YEfClRYQROYLOGA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_eztmUK2YEfClRYQROYLOGA" name="notification system" type="_LN3BEK2YEfClRYQROYLOGA" association="_ezsYMK2YEfClRYQROYLOGA"/>
+  </packagedElement>
+</uml:Model>
