@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_XySdQKj-EfCCE_n7-LA6Xw" name="Mobileshops">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_X1GgsKj-EfCCE_n7-LA6Xw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_Qeht4KqBEfC8Bf0qa7LnCQ" name="union officer"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_uwaikKqCEfC8Bf0qa7LnCQ" name="create union event" useCase="_E9PKEKqDEfC8Bf0qa7LnCQ _H4-icKqDEfC8Bf0qa7LnCQ _JkQ_kKqDEfC8Bf0qa7LnCQ _MGDm4KqDEfC8Bf0qa7LnCQ _OHhvYKqDEfC8Bf0qa7LnCQ _QQow8KqDEfC8Bf0qa7LnCQ _TqKRgKqDEfC8Bf0qa7LnCQ _aNolkKqDEfC8Bf0qa7LnCQ _fqYiIKqDEfC8Bf0qa7LnCQ _1F3MQKqDEfC8Bf0qa7LnCQ">
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_E9PKEKqDEfC8Bf0qa7LnCQ" name="create union event" subject="_uwaikKqCEfC8Bf0qa7LnCQ">
+      <include xmi:type="uml:Include" xmi:id="_6VvckKqmEfC8Bf0qa7LnCQ" addition="_OHhvYKqDEfC8Bf0qa7LnCQ"/>
+      <include xmi:type="uml:Include" xmi:id="_8abRIKqmEfC8Bf0qa7LnCQ" addition="_JkQ_kKqDEfC8Bf0qa7LnCQ"/>
+      <include xmi:type="uml:Include" xmi:id="_9cOsYKqmEfC8Bf0qa7LnCQ" addition="_MGDm4KqDEfC8Bf0qa7LnCQ"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_H4-icKqDEfC8Bf0qa7LnCQ" name="Update event details" subject="_uwaikKqCEfC8Bf0qa7LnCQ">
+      <extend xmi:type="uml:Extend" xmi:id="_VdUt4KqnEfC8Bf0qa7LnCQ" extendedCase="_TqKRgKqDEfC8Bf0qa7LnCQ" extensionLocation="_VdV8AKqnEfC8Bf0qa7LnCQ"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_JkQ_kKqDEfC8Bf0qa7LnCQ" name="configure registration" subject="_uwaikKqCEfC8Bf0qa7LnCQ"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_MGDm4KqDEfC8Bf0qa7LnCQ" name="set event and promotion scope" subject="_uwaikKqCEfC8Bf0qa7LnCQ"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_OHhvYKqDEfC8Bf0qa7LnCQ" name="upload promotion materials" subject="_uwaikKqCEfC8Bf0qa7LnCQ"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_QQow8KqDEfC8Bf0qa7LnCQ" name="Submit and publish event" subject="_uwaikKqCEfC8Bf0qa7LnCQ">
+      <include xmi:type="uml:Include" xmi:id="_B4RZ4KqnEfC8Bf0qa7LnCQ" addition="_1F3MQKqDEfC8Bf0qa7LnCQ"/>
+      <include xmi:type="uml:Include" xmi:id="_EqZjQKqnEfC8Bf0qa7LnCQ" addition="_TqKRgKqDEfC8Bf0qa7LnCQ"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_TqKRgKqDEfC8Bf0qa7LnCQ" name="publish and prmote event" subject="_uwaikKqCEfC8Bf0qa7LnCQ">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_VdV8AKqnEfC8Bf0qa7LnCQ" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_bKRpoKqnEfC8Bf0qa7LnCQ" name="ExtensionPoint2"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_aNolkKqDEfC8Bf0qa7LnCQ" name="cancel/postpone event" subject="_uwaikKqCEfC8Bf0qa7LnCQ">
+      <extend xmi:type="uml:Extend" xmi:id="_bKRCkKqnEfC8Bf0qa7LnCQ" extendedCase="_TqKRgKqDEfC8Bf0qa7LnCQ" extensionLocation="_bKRpoKqnEfC8Bf0qa7LnCQ"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_fqYiIKqDEfC8Bf0qa7LnCQ" name="view event engagement" subject="_uwaikKqCEfC8Bf0qa7LnCQ"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_1F3MQKqDEfC8Bf0qa7LnCQ" name="index for search and subscription" subject="_uwaikKqCEfC8Bf0qa7LnCQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_mU8LQKqnEfC8Bf0qa7LnCQ" memberEnd="_mU_1oKqnEfC8Bf0qa7LnCQ _mVAcsKqnEfC8Bf0qa7LnCQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mU_OkKqnEfC8Bf0qa7LnCQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mU_OkaqnEfC8Bf0qa7LnCQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_mU_1oKqnEfC8Bf0qa7LnCQ" name="create union event" type="_E9PKEKqDEfC8Bf0qa7LnCQ" association="_mU8LQKqnEfC8Bf0qa7LnCQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_mVAcsKqnEfC8Bf0qa7LnCQ" name="union officer" type="_Qeht4KqBEfC8Bf0qa7LnCQ" association="_mU8LQKqnEfC8Bf0qa7LnCQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_n_rOwKqnEfC8Bf0qa7LnCQ" memberEnd="_n_r10qqnEfC8Bf0qa7LnCQ _n_r106qnEfC8Bf0qa7LnCQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_n_r10KqnEfC8Bf0qa7LnCQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n_r10aqnEfC8Bf0qa7LnCQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_n_r10qqnEfC8Bf0qa7LnCQ" name="submit and publish event" type="_QQow8KqDEfC8Bf0qa7LnCQ" association="_n_rOwKqnEfC8Bf0qa7LnCQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_n_r106qnEfC8Bf0qa7LnCQ" name="union officer" type="_Qeht4KqBEfC8Bf0qa7LnCQ" association="_n_rOwKqnEfC8Bf0qa7LnCQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_pIJSsKqnEfC8Bf0qa7LnCQ" memberEnd="_pIKg0qqnEfC8Bf0qa7LnCQ _pILH4KqnEfC8Bf0qa7LnCQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pIKg0KqnEfC8Bf0qa7LnCQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pIKg0aqnEfC8Bf0qa7LnCQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_pIKg0qqnEfC8Bf0qa7LnCQ" name="update event details" type="_H4-icKqDEfC8Bf0qa7LnCQ" association="_pIJSsKqnEfC8Bf0qa7LnCQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_pILH4KqnEfC8Bf0qa7LnCQ" name="union officer" type="_Qeht4KqBEfC8Bf0qa7LnCQ" association="_pIJSsKqnEfC8Bf0qa7LnCQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_rMGugKqnEfC8Bf0qa7LnCQ" memberEnd="_rMH8oKqnEfC8Bf0qa7LnCQ _rMH8oaqnEfC8Bf0qa7LnCQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rMHVkKqnEfC8Bf0qa7LnCQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_rMHVkaqnEfC8Bf0qa7LnCQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_rMH8oKqnEfC8Bf0qa7LnCQ" name="cancel/postpone event" type="_aNolkKqDEfC8Bf0qa7LnCQ" association="_rMGugKqnEfC8Bf0qa7LnCQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_rMH8oaqnEfC8Bf0qa7LnCQ" name="union officer" type="_Qeht4KqBEfC8Bf0qa7LnCQ" association="_rMGugKqnEfC8Bf0qa7LnCQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_wuyT8KqnEfC8Bf0qa7LnCQ" memberEnd="_wu0JIKqnEfC8Bf0qa7LnCQ _wu0JIaqnEfC8Bf0qa7LnCQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wuziEKqnEfC8Bf0qa7LnCQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wuziEaqnEfC8Bf0qa7LnCQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_wu0JIKqnEfC8Bf0qa7LnCQ" name="view event engagement" type="_fqYiIKqDEfC8Bf0qa7LnCQ" association="_wuyT8KqnEfC8Bf0qa7LnCQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_wu0JIaqnEfC8Bf0qa7LnCQ" name="union officer" type="_Qeht4KqBEfC8Bf0qa7LnCQ" association="_wuyT8KqnEfC8Bf0qa7LnCQ"/>
+  </packagedElement>
+</uml:Model>
