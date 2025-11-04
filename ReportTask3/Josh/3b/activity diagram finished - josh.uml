@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_pMMa0LC-EfCcoo-v041ohw" name="activity diagram - josh">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_pUgCQLC-EfCcoo-v041ohw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_q17_0LC-EfCcoo-v041ohw" name="Register for event USU student app diagram" node="_LD8YYLC_EfCcoo-v041ohw _P0sxoLC_EfCcoo-v041ohw _Dlt20LDAEfCcoo-v041ohw _ECjHULDBEfCcoo-v041ohw _NPEhQLDBEfCcoo-v041ohw _QBBEcLDBEfCcoo-v041ohw _b9Gb8LDBEfCcoo-v041ohw _ifl4kLDBEfCcoo-v041ohw _WUTyALDCEfCcoo-v041ohw _6dN54LDCEfCcoo-v041ohw _LQx9sLDDEfCcoo-v041ohw _s-9vkLDDEfCcoo-v041ohw _3IDC8LDEEfCcoo-v041ohw _NsT6ELDFEfCcoo-v041ohw _SzLGMLDFEfCcoo-v041ohw _dpGt8LDFEfCcoo-v041ohw _USj_4LDGEfCcoo-v041ohw _xP3tULmFEfC3vI2NAEo_Iw _JZpwwLmGEfC3vI2NAEo_Iw _O43LcLmGEfC3vI2NAEo_Iw _eYxPALmGEfC3vI2NAEo_Iw _n_tUELmGEfC3vI2NAEo_Iw _sppToLmGEfC3vI2NAEo_Iw _xphG8LmGEfC3vI2NAEo_Iw __t0vMLmGEfC3vI2NAEo_Iw _W38scLmHEfC3vI2NAEo_Iw _lFd7ELmHEfC3vI2NAEo_Iw _q7zm4LmIEfC3vI2NAEo_Iw _48AyQLmIEfC3vI2NAEo_Iw" group="_uMRCcLC-EfCcoo-v041ohw _vANA0LC-EfCcoo-v041ohw">
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_HEQaQLDAEfCcoo-v041ohw" target="_Dlt20LDAEfCcoo-v041ohw" source="_LD8YYLC_EfCcoo-v041ohw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_HEUrsLDAEfCcoo-v041ohw" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_HEUrsbDAEfCcoo-v041ohw" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_II0OkLDAEfCcoo-v041ohw" target="_P0sxoLC_EfCcoo-v041ohw" source="_Dlt20LDAEfCcoo-v041ohw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_II5uILDAEfCcoo-v041ohw" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_II5uIbDAEfCcoo-v041ohw" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_ThF48LDBEfCcoo-v041ohw" target="_NPEhQLDBEfCcoo-v041ohw" source="_ECjHULDBEfCcoo-v041ohw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_ThL_kLDBEfCcoo-v041ohw" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_ThL_kbDBEfCcoo-v041ohw" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_VfCzYLDBEfCcoo-v041ohw" target="_QBBEcLDBEfCcoo-v041ohw" source="_NPEhQLDBEfCcoo-v041ohw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_VfJhELDBEfCcoo-v041ohw" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_VfJhEbDBEfCcoo-v041ohw" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_n86c4LDBEfCcoo-v041ohw" target="_ifl4kLDBEfCcoo-v041ohw" source="_b9Gb8LDBEfCcoo-v041ohw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_n9CYsLDBEfCcoo-v041ohw" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_n9CYsbDBEfCcoo-v041ohw" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_EiVvwLDDEfCcoo-v041ohw" name="Else" inPartition="_vANA0LC-EfCcoo-v041ohw" target="_6dN54LDCEfCcoo-v041ohw" source="_WUTyALDCEfCcoo-v041ohw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_Eigu4LDDEfCcoo-v041ohw" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_Eigu4bDDEfCcoo-v041ohw" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_ROAxILDDEfCcoo-v041ohw" name="Ticket required" inPartition="_vANA0LC-EfCcoo-v041ohw" target="_LQx9sLDDEfCcoo-v041ohw" source="_WUTyALDCEfCcoo-v041ohw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_ROIs8LDDEfCcoo-v041ohw" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_ROIs8bDDEfCcoo-v041ohw" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_EO2hILDFEfCcoo-v041ohw" inPartition="_vANA0LC-EfCcoo-v041ohw" target="_3IDC8LDEEfCcoo-v041ohw" source="_6dN54LDCEfCcoo-v041ohw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_EPA5MLDFEfCcoo-v041ohw" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_EPA5MbDFEfCcoo-v041ohw" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_VgckwLDFEfCcoo-v041ohw" inPartition="_vANA0LC-EfCcoo-v041ohw" target="_NsT6ELDFEfCcoo-v041ohw" source="_3IDC8LDEEfCcoo-v041ohw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_Vgnj4LDFEfCcoo-v041ohw" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_Vgnj4bDFEfCcoo-v041ohw" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_gdmO0LDFEfCcoo-v041ohw" target="_dpGt8LDFEfCcoo-v041ohw" source="_SzLGMLDFEfCcoo-v041ohw">
+      <guard xmi:type="uml:LiteralBoolean" xmi:id="_gdxN8LDFEfCcoo-v041ohw" value="true"/>
+      <weight xmi:type="uml:LiteralInteger" xmi:id="_gdxN8bDFEfCcoo-v041ohw" value="1"/>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_V9X74LDGEfCcoo-v041ohw" target="_LD8YYLC_EfCcoo-v041ohw" source="_USj_4LDGEfCcoo-v041ohw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_n6wYELmFEfC3vI2NAEo_Iw" target="_WUTyALDCEfCcoo-v041ohw" source="_ifl4kLDBEfCcoo-v041ohw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_0KJtILmFEfC3vI2NAEo_Iw" target="_xP3tULmFEfC3vI2NAEo_Iw" source="_QBBEcLDBEfCcoo-v041ohw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_1gCiALmFEfC3vI2NAEo_Iw" target="_q7zm4LmIEfC3vI2NAEo_Iw" source="_xP3tULmFEfC3vI2NAEo_Iw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_TkraULmGEfC3vI2NAEo_Iw" target="_O43LcLmGEfC3vI2NAEo_Iw" source="_P0sxoLC_EfCcoo-v041ohw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Uw8ZILmGEfC3vI2NAEo_Iw" target="_ECjHULDBEfCcoo-v041ohw" source="_O43LcLmGEfC3vI2NAEo_Iw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_h-KBULmGEfC3vI2NAEo_Iw" target="_eYxPALmGEfC3vI2NAEo_Iw" source="_LQx9sLDDEfCcoo-v041ohw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_i_kbALmGEfC3vI2NAEo_Iw" target="_s-9vkLDDEfCcoo-v041ohw" source="_eYxPALmGEfC3vI2NAEo_Iw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_rXd6ELmGEfC3vI2NAEo_Iw" inPartition="_uMRCcLC-EfCcoo-v041ohw" target="_n_tUELmGEfC3vI2NAEo_Iw" source="_s-9vkLDDEfCcoo-v041ohw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_9kE0cLmGEfC3vI2NAEo_Iw" target="_sppToLmGEfC3vI2NAEo_Iw" source="_n_tUELmGEfC3vI2NAEo_Iw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_-JywoLmGEfC3vI2NAEo_Iw" target="_xphG8LmGEfC3vI2NAEo_Iw" source="_sppToLmGEfC3vI2NAEo_Iw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_BxnL4LmHEfC3vI2NAEo_Iw" name="Authentication successful" inPartition="_vANA0LC-EfCcoo-v041ohw" target="_3IDC8LDEEfCcoo-v041ohw" source="__t0vMLmGEfC3vI2NAEo_Iw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_GFRZcLmHEfC3vI2NAEo_Iw" inPartition="_vANA0LC-EfCcoo-v041ohw" target="__t0vMLmGEfC3vI2NAEo_Iw" source="_xphG8LmGEfC3vI2NAEo_Iw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_eXHMsLmHEfC3vI2NAEo_Iw" name="Else" target="_W38scLmHEfC3vI2NAEo_Iw" source="__t0vMLmGEfC3vI2NAEo_Iw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_fW09QLmHEfC3vI2NAEo_Iw" target="_n_tUELmGEfC3vI2NAEo_Iw" source="_W38scLmHEfC3vI2NAEo_Iw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_nTxlsLmHEfC3vI2NAEo_Iw" target="_lFd7ELmHEfC3vI2NAEo_Iw" source="_NsT6ELDFEfCcoo-v041ohw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_n2VgMLmHEfC3vI2NAEo_Iw" target="_SzLGMLDFEfCcoo-v041ohw" source="_lFd7ELmHEfC3vI2NAEo_Iw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Mv_IgLmIEfC3vI2NAEo_Iw" name="Cancellation" target="_dpGt8LDFEfCcoo-v041ohw" source="__t0vMLmGEfC3vI2NAEo_Iw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_z51R0LmIEfC3vI2NAEo_Iw" name="else" inPartition="_uMRCcLC-EfCcoo-v041ohw" target="_b9Gb8LDBEfCcoo-v041ohw" source="_q7zm4LmIEfC3vI2NAEo_Iw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_9ho5kLmIEfC3vI2NAEo_Iw" name="Quit registration" target="_48AyQLmIEfC3vI2NAEo_Iw" source="_q7zm4LmIEfC3vI2NAEo_Iw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_G84sALmJEfC3vI2NAEo_Iw" name="Find new event" inPartition="_uMRCcLC-EfCcoo-v041ohw" target="_LD8YYLC_EfCcoo-v041ohw" source="_q7zm4LmIEfC3vI2NAEo_Iw"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_uMRCcLC-EfCcoo-v041ohw" name="Student" node="_LD8YYLC_EfCcoo-v041ohw _ECjHULDBEfCcoo-v041ohw _b9Gb8LDBEfCcoo-v041ohw _s-9vkLDDEfCcoo-v041ohw _SzLGMLDFEfCcoo-v041ohw _n_tUELmGEfC3vI2NAEo_Iw _q7zm4LmIEfC3vI2NAEo_Iw" edge="_rXd6ELmGEfC3vI2NAEo_Iw _z51R0LmIEfC3vI2NAEo_Iw _G84sALmJEfC3vI2NAEo_Iw"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_vANA0LC-EfCcoo-v041ohw" name="Student App" node="_P0sxoLC_EfCcoo-v041ohw _QBBEcLDBEfCcoo-v041ohw _WUTyALDCEfCcoo-v041ohw _6dN54LDCEfCcoo-v041ohw _LQx9sLDDEfCcoo-v041ohw _3IDC8LDEEfCcoo-v041ohw _NsT6ELDFEfCcoo-v041ohw _xphG8LmGEfC3vI2NAEo_Iw __t0vMLmGEfC3vI2NAEo_Iw" edge="_EiVvwLDDEfCcoo-v041ohw _ROAxILDDEfCcoo-v041ohw _EO2hILDFEfCcoo-v041ohw _VgckwLDFEfCcoo-v041ohw _BxnL4LmHEfC3vI2NAEo_Iw _GFRZcLmHEfC3vI2NAEo_Iw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_LD8YYLC_EfCcoo-v041ohw" name="Browse events" incoming="_V9X74LDGEfCcoo-v041ohw _G84sALmJEfC3vI2NAEo_Iw" outgoing="_HEQaQLDAEfCcoo-v041ohw" inPartition="_uMRCcLC-EfCcoo-v041ohw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_P0sxoLC_EfCcoo-v041ohw" name="Display event list" incoming="_II0OkLDAEfCcoo-v041ohw" outgoing="_TkraULmGEfC3vI2NAEo_Iw" inPartition="_vANA0LC-EfCcoo-v041ohw"/>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_Dlt20LDAEfCcoo-v041ohw" name="Event list Data Request" incoming="_HEQaQLDAEfCcoo-v041ohw" outgoing="_II0OkLDAEfCcoo-v041ohw">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_Dlud4LDAEfCcoo-v041ohw" value="1"/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_ECjHULDBEfCcoo-v041ohw" name="Select event" incoming="_Uw8ZILmGEfC3vI2NAEo_Iw" outgoing="_ThF48LDBEfCcoo-v041ohw" inPartition="_uMRCcLC-EfCcoo-v041ohw"/>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_NPEhQLDBEfCcoo-v041ohw" name="Event" incoming="_ThF48LDBEfCcoo-v041ohw" outgoing="_VfCzYLDBEfCcoo-v041ohw">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_NPEhQbDBEfCcoo-v041ohw" value="1"/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_QBBEcLDBEfCcoo-v041ohw" name="Get event details" incoming="_VfCzYLDBEfCcoo-v041ohw" outgoing="_0KJtILmFEfC3vI2NAEo_Iw" inPartition="_vANA0LC-EfCcoo-v041ohw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_b9Gb8LDBEfCcoo-v041ohw" name="Register for event" incoming="_z51R0LmIEfC3vI2NAEo_Iw" outgoing="_n86c4LDBEfCcoo-v041ohw" inPartition="_uMRCcLC-EfCcoo-v041ohw"/>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_ifl4kLDBEfCcoo-v041ohw" name="Event avilability" incoming="_n86c4LDBEfCcoo-v041ohw" outgoing="_n6wYELmFEfC3vI2NAEo_Iw">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_ifl4kbDBEfCcoo-v041ohw" value="1"/>
+    </node>
+    <node xmi:type="uml:DecisionNode" xmi:id="_WUTyALDCEfCcoo-v041ohw" name="" incoming="_n6wYELmFEfC3vI2NAEo_Iw" outgoing="_EiVvwLDDEfCcoo-v041ohw _ROAxILDDEfCcoo-v041ohw" inPartition="_vANA0LC-EfCcoo-v041ohw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_6dN54LDCEfCcoo-v041ohw" name="Direct register form" incoming="_EiVvwLDDEfCcoo-v041ohw" outgoing="_EO2hILDFEfCcoo-v041ohw" inPartition="_vANA0LC-EfCcoo-v041ohw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_LQx9sLDDEfCcoo-v041ohw" name="Show ticket options" incoming="_ROAxILDDEfCcoo-v041ohw" outgoing="_h-KBULmGEfC3vI2NAEo_Iw" inPartition="_vANA0LC-EfCcoo-v041ohw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_s-9vkLDDEfCcoo-v041ohw" name="Select ticket" incoming="_i_kbALmGEfC3vI2NAEo_Iw" outgoing="_rXd6ELmGEfC3vI2NAEo_Iw" inPartition="_uMRCcLC-EfCcoo-v041ohw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_3IDC8LDEEfCcoo-v041ohw" name="Update event registration" incoming="_EO2hILDFEfCcoo-v041ohw _BxnL4LmHEfC3vI2NAEo_Iw" outgoing="_VgckwLDFEfCcoo-v041ohw" inPartition="_vANA0LC-EfCcoo-v041ohw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_NsT6ELDFEfCcoo-v041ohw" name="Send confirmation email" incoming="_VgckwLDFEfCcoo-v041ohw" outgoing="_nTxlsLmHEfC3vI2NAEo_Iw" inPartition="_vANA0LC-EfCcoo-v041ohw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_SzLGMLDFEfCcoo-v041ohw" name="Recieve confirmation email" incoming="_n2VgMLmHEfC3vI2NAEo_Iw" outgoing="_gdmO0LDFEfCcoo-v041ohw" inPartition="_uMRCcLC-EfCcoo-v041ohw"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_dpGt8LDFEfCcoo-v041ohw" name="End" incoming="_gdmO0LDFEfCcoo-v041ohw _Mv_IgLmIEfC3vI2NAEo_Iw"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_USj_4LDGEfCcoo-v041ohw" name="" outgoing="_V9X74LDGEfCcoo-v041ohw"/>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_xP3tULmFEfC3vI2NAEo_Iw" name="Event details" incoming="_0KJtILmFEfC3vI2NAEo_Iw" outgoing="_1gCiALmFEfC3vI2NAEo_Iw">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_xP3tUbmFEfC3vI2NAEo_Iw" value="1"/>
+    </node>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_JZpwwLmGEfC3vI2NAEo_Iw" name="CopyOf_Event_37">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_JZpwwbmGEfC3vI2NAEo_Iw" value="1"/>
+    </node>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_O43LcLmGEfC3vI2NAEo_Iw" name="Event list data" incoming="_TkraULmGEfC3vI2NAEo_Iw" outgoing="_Uw8ZILmGEfC3vI2NAEo_Iw">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_O43LcbmGEfC3vI2NAEo_Iw" value="1"/>
+    </node>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_eYxPALmGEfC3vI2NAEo_Iw" name="Ticket options" incoming="_h-KBULmGEfC3vI2NAEo_Iw" outgoing="_i_kbALmGEfC3vI2NAEo_Iw">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_eYxPAbmGEfC3vI2NAEo_Iw" value="1"/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_n_tUELmGEfC3vI2NAEo_Iw" name="Payment" incoming="_rXd6ELmGEfC3vI2NAEo_Iw _fW09QLmHEfC3vI2NAEo_Iw" outgoing="_9kE0cLmGEfC3vI2NAEo_Iw" inPartition="_uMRCcLC-EfCcoo-v041ohw"/>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_sppToLmGEfC3vI2NAEo_Iw" name="Payment details" incoming="_9kE0cLmGEfC3vI2NAEo_Iw" outgoing="_-JywoLmGEfC3vI2NAEo_Iw">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_sppTobmGEfC3vI2NAEo_Iw" value="1"/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_xphG8LmGEfC3vI2NAEo_Iw" name="Authenticate card transaction" incoming="_-JywoLmGEfC3vI2NAEo_Iw" outgoing="_GFRZcLmHEfC3vI2NAEo_Iw" inPartition="_vANA0LC-EfCcoo-v041ohw"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="__t0vMLmGEfC3vI2NAEo_Iw" incoming="_GFRZcLmHEfC3vI2NAEo_Iw" outgoing="_BxnL4LmHEfC3vI2NAEo_Iw _eXHMsLmHEfC3vI2NAEo_Iw _Mv_IgLmIEfC3vI2NAEo_Iw" inPartition="_vANA0LC-EfCcoo-v041ohw">
+      <name xsi:nil="true"/>
+    </node>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_W38scLmHEfC3vI2NAEo_Iw" name="Diclined card message" incoming="_eXHMsLmHEfC3vI2NAEo_Iw" outgoing="_fW09QLmHEfC3vI2NAEo_Iw">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_W38scbmHEfC3vI2NAEo_Iw" value="1"/>
+    </node>
+    <node xmi:type="uml:CentralBufferNode" xmi:id="_lFd7ELmHEfC3vI2NAEo_Iw" name="Confirmation email" incoming="_nTxlsLmHEfC3vI2NAEo_Iw" outgoing="_n2VgMLmHEfC3vI2NAEo_Iw">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_lFd7EbmHEfC3vI2NAEo_Iw" value="1"/>
+    </node>
+    <node xmi:type="uml:DecisionNode" xmi:id="_q7zm4LmIEfC3vI2NAEo_Iw" incoming="_1gCiALmFEfC3vI2NAEo_Iw" outgoing="_z51R0LmIEfC3vI2NAEo_Iw _9ho5kLmIEfC3vI2NAEo_Iw _G84sALmJEfC3vI2NAEo_Iw" inPartition="_uMRCcLC-EfCcoo-v041ohw">
+      <name xsi:nil="true"/>
+    </node>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_48AyQLmIEfC3vI2NAEo_Iw" name="End" incoming="_9ho5kLmIEfC3vI2NAEo_Iw"/>
+  </packagedElement>
+</uml:Model>
