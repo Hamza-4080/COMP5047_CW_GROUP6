@@ -451,6 +451,7 @@
     <nestedClassifier xmi:type="uml:Interface" xmi:id="_vo8qNtUNEfCQ6MgYOfP0xA" name="SearchEvents"/>
     <nestedClassifier xmi:type="uml:Interface" xmi:id="_jBBOcNUPEfCQ6MgYOfP0xA" name="IUnionDataAccess"/>
     <nestedClassifier xmi:type="uml:Interface" xmi:id="_C-0ioNUiEfCQ6MgYOfP0xA" name="INotification"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="_8bVpsNUwEfCQ6MgYOfP0xA" name="IEventDataAccess"/>
     <packagedElement xmi:type="uml:Component" xmi:id="_vo8qN9UNEfCQ6MgYOfP0xA" name="EventGUI">
       <ownedComment xmi:type="uml:Comment" xmi:id="_vo8qONUNEfCQ6MgYOfP0xA" annotatedElement="_vo8qN9UNEfCQ6MgYOfP0xA">
         <body>Creates event, update, pbulish etc the graphical interface for events&#xD;
@@ -511,7 +512,7 @@
   <packagedElement xmi:type="uml:Interface" xmi:id="_A-0J0NUOEfCQ6MgYOfP0xA" name="Event Manager"/>
   <packagedElement xmi:type="uml:Interface" xmi:id="_gU_igNUOEfCQ6MgYOfP0xA" name="Notification Manager"/>
   <packagedElement xmi:type="uml:Interface" xmi:id="_ozkRUNUOEfCQ6MgYOfP0xA" name="CreateEvent"/>
-  <packagedElement xmi:type="uml:Interface" xmi:id="_jR48ANUPEfCQ6MgYOfP0xA" name="ParticipationManagerService"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_jR48ANUPEfCQ6MgYOfP0xA" name="IManageParticipation"/>
   <packagedElement xmi:type="uml:Component" xmi:id="_vQTR8NUTEfCQ6MgYOfP0xA" name="Union Database">
     <nestedClassifier xmi:type="uml:Interface" xmi:id="_vQTR8dUTEfCQ6MgYOfP0xA" name="Create/edit event"/>
     <nestedClassifier xmi:type="uml:Interface" xmi:id="_vQTR8tUTEfCQ6MgYOfP0xA" name="ConfigureRegistration"/>
@@ -652,6 +653,7 @@
     <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_RLxJgNUiEfCQ6MgYOfP0xA" client="_Yrv0ANUgEfCQ6MgYOfP0xA" supplier="_NXMEoNUiEfCQ6MgYOfP0xA" contract="_NXMEoNUiEfCQ6MgYOfP0xA"/>
     <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_Rv_38NUiEfCQ6MgYOfP0xA" client="_Yrv0ANUgEfCQ6MgYOfP0xA" supplier="_A-0J0NUOEfCQ6MgYOfP0xA" contract="_A-0J0NUOEfCQ6MgYOfP0xA"/>
     <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_j1b84NUuEfCQ6MgYOfP0xA" client="_Yrv0ANUgEfCQ6MgYOfP0xA" supplier="_C-0ioNUiEfCQ6MgYOfP0xA" contract="_C-0ioNUiEfCQ6MgYOfP0xA"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_TVJTANUxEfCQ6MgYOfP0xA" client="_Yrv0ANUgEfCQ6MgYOfP0xA" supplier="_8bVpsNUwEfCQ6MgYOfP0xA"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Component" xmi:id="_hStp0NUgEfCQ6MgYOfP0xA" name="Authorisation">
     <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_O_C90NUjEfCQ6MgYOfP0xA" client="_hStp0NUgEfCQ6MgYOfP0xA" supplier="_QrdsENUSEfCQ6MgYOfP0xA" contract="_QrdsENUSEfCQ6MgYOfP0xA"/>
@@ -685,6 +687,7 @@
   <packagedElement xmi:type="uml:Component" xmi:id="_hdYBsNUgEfCQ6MgYOfP0xA" name="Participation Manager Service">
     <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_Lw5m0NUjEfCQ6MgYOfP0xA" client="_hdYBsNUgEfCQ6MgYOfP0xA" supplier="_jR48ANUPEfCQ6MgYOfP0xA" contract="_jR48ANUPEfCQ6MgYOfP0xA"/>
     <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_GAYDkNUsEfCQ6MgYOfP0xA" client="_hdYBsNUgEfCQ6MgYOfP0xA" supplier="_jBBOcNUPEfCQ6MgYOfP0xA" contract="_jBBOcNUPEfCQ6MgYOfP0xA"/>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_Gm8iENUxEfCQ6MgYOfP0xA" client="_hdYBsNUgEfCQ6MgYOfP0xA" supplier="_8bVpsNUwEfCQ6MgYOfP0xA" contract="_8bVpsNUwEfCQ6MgYOfP0xA"/>
     <packagedElement xmi:type="uml:Usage" xmi:id="_-DSw4NUuEfCQ6MgYOfP0xA" client="_hdYBsNUgEfCQ6MgYOfP0xA" supplier="_C-0ioNUiEfCQ6MgYOfP0xA"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Component" xmi:id="_hfPp8NUgEfCQ6MgYOfP0xA" name="Union Database Manager">
@@ -737,4 +740,5 @@
     <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_ff5K4tUsEfCQ6MgYOfP0xA" client="_ff5K4NUsEfCQ6MgYOfP0xA" supplier="_jBBOcNUPEfCQ6MgYOfP0xA" contract="_jBBOcNUPEfCQ6MgYOfP0xA"/>
     <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_ZH0bENUXEfCQ6MgYOfP0xA" client="_ff5K4NUsEfCQ6MgYOfP0xA" supplier="_jR48ANUPEfCQ6MgYOfP0xA" contract="_jR48ANUPEfCQ6MgYOfP0xA"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_L-9IkNUxEfCQ6MgYOfP0xA" client="_8bVpsNUwEfCQ6MgYOfP0xA" supplier="_jRs5UNUQEfCQ6MgYOfP0xA"/>
 </uml:Model>
