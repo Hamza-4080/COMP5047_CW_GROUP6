@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_7ncGgNX_EfCzhu297a63rw" name="5a_ClassDiagram">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_7pgjENX_EfCzhu297a63rw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_7nRAANYCEfCzhu297a63rw" name="ParticipationManagerService">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_R_2HYNYKEfCzhu297a63rw" client="_7nRAANYCEfCzhu297a63rw" supplier="_gxlS0NYJEfCzhu297a63rw" contract="_gxlS0NYJEfCzhu297a63rw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_DeI1oNYDEfCzhu297a63rw" name="IEventDataAccess" visibility="public">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_dfEgkNYGEfCzhu297a63rw" name="getData">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_hkT3oNYGEfCzhu297a63rw" name="id" effect="read">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_me9MsNYGEfCzhu297a63rw" name="field" effect="read">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_sMycwNYHEfCzhu297a63rw" name="data" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_y4qe4NYHEfCzhu297a63rw" name="setData">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_4cSfgNYHEfCzhu297a63rw" name="id" effect="read">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_ADtj4NYIEfCzhu297a63rw" name="data" effect="read">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_FNSFwNYIEfCzhu297a63rw" name="field" effect="read">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_EXp3kNYDEfCzhu297a63rw" name="INotification">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_MRo5UNYIEfCzhu297a63rw" name="sendNotification">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_O92A4NYIEfCzhu297a63rw" name="eventID" effect="read">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_V_dCcNYIEfCzhu297a63rw" name="data" effect="read">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_FJngANYDEfCzhu297a63rw" name="IUnionDataAccess">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_gKViENYIEfCzhu297a63rw" name="getData">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_gKViEdYIEfCzhu297a63rw" name="id" effect="read">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_gKViEtYIEfCzhu297a63rw" name="field" effect="read">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_gKViE9YIEfCzhu297a63rw" name="data" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_hZ-lANYIEfCzhu297a63rw" name="setData">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_hZ-lAdYIEfCzhu297a63rw" name="id" effect="read">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_hZ-lAtYIEfCzhu297a63rw" name="data" effect="read">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_hZ-lA9YIEfCzhu297a63rw" name="field" effect="read">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_--sAENYIEfCzhu297a63rw" client="_7nRAANYCEfCzhu297a63rw" supplier="_DeI1oNYDEfCzhu297a63rw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_D0t64NYJEfCzhu297a63rw" client="_7nRAANYCEfCzhu297a63rw" supplier="_EXp3kNYDEfCzhu297a63rw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_F3oN0NYJEfCzhu297a63rw" client="_7nRAANYCEfCzhu297a63rw" supplier="_FJngANYDEfCzhu297a63rw"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_gxlS0NYJEfCzhu297a63rw" name="IManageParticipation">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_u4oGANYJEfCzhu297a63rw" name="studentRequest">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_7a1pYNYJEfCzhu297a63rw" name="id" effect="read">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_x0CHMNYJEfCzhu297a63rw" name="request_type" effect="read">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_CkGyINYKEfCzhu297a63rw" name="unionEndorse">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_EO9xcNYKEfCzhu297a63rw" name="id" effect="read">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_JzYcQNYKEfCzhu297a63rw" name="data" effect="read">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_qaobQNYKEfCzhu297a63rw" name="RequestParser">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_7q8sgNYKEfCzhu297a63rw" name="parseStudentRequest">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_9y53gNYKEfCzhu297a63rw" name="type" effect="read">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_IYQFkNYLEfCzhu297a63rw" name="parsed_type" direction="return" effect="create">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_A3vhgNYLEfCzhu297a63rw" name="parseUnionRequest">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_A3vhgdYLEfCzhu297a63rw" name="data" effect="read">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_bQCD4NYLEfCzhu297a63rw" name="parsed_data" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_LS-U0NYMEfCzhu297a63rw" memberEnd="_LTB_MNYMEfCzhu297a63rw _LTCmQNYMEfCzhu297a63rw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LTBYINYMEfCzhu297a63rw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LTBYIdYMEfCzhu297a63rw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_LTB_MNYMEfCzhu297a63rw" name="requestparser" type="_qaobQNYKEfCzhu297a63rw" association="_LS-U0NYMEfCzhu297a63rw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_LTCmQNYMEfCzhu297a63rw" name="participationmanagerservice" type="_7nRAANYCEfCzhu297a63rw" association="_LS-U0NYMEfCzhu297a63rw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_duAa0NYOEfCzhu297a63rw" name="ParticipationValidator">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_kA58QNYOEfCzhu297a63rw" name="validateStudentRequest">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_680eYNYOEfCzhu297a63rw" name="studentID" effect="read">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_BpfxwNYPEfCzhu297a63rw" name="eventID" effect="read">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_fCf2oNYQEfCzhu297a63rw" name="valid" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_IZzA4NYPEfCzhu297a63rw" name="validateUnionEndorse">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_J0yYMNYPEfCzhu297a63rw" name="operatorID" effect="read">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_PcdLUNYPEfCzhu297a63rw" name="eventID" effect="read">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_kBMlQNYQEfCzhu297a63rw" name="valid" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_GeDQcNYQEfCzhu297a63rw" memberEnd="_GeEekNYQEfCzhu297a63rw _GeFFoNYQEfCzhu297a63rw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GeD3gNYQEfCzhu297a63rw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GeD3gdYQEfCzhu297a63rw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_GeEekNYQEfCzhu297a63rw" name="participationvalidator" type="_duAa0NYOEfCzhu297a63rw" association="_GeDQcNYQEfCzhu297a63rw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_GeFFoNYQEfCzhu297a63rw" name="participationmanagerservice" type="_7nRAANYCEfCzhu297a63rw" association="_GeDQcNYQEfCzhu297a63rw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Qxz_QNYQEfCzhu297a63rw" name="ParticipationProcessor">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_UFAOUNYQEfCzhu297a63rw" name="processStudentRequest">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_WWkoUNYQEfCzhu297a63rw" name="studentID" effect="read">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_YvC7kNYQEfCzhu297a63rw" name="eventID" effect="read">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_nIDogNYQEfCzhu297a63rw" name="processUnionEndorse">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_nIDogdYQEfCzhu297a63rw" name="operatorID" effect="read">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_nIDogtYQEfCzhu297a63rw" name="eventID" effect="read">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tTFnYNYQEfCzhu297a63rw" memberEnd="_tTG1gtYQEfCzhu297a63rw _tTHckNYQEfCzhu297a63rw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tTG1gNYQEfCzhu297a63rw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tTG1gdYQEfCzhu297a63rw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_tTG1gtYQEfCzhu297a63rw" name="participationprocessor" type="_Qxz_QNYQEfCzhu297a63rw" association="_tTFnYNYQEfCzhu297a63rw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_tTHckNYQEfCzhu297a63rw" name="participationmanagerservice" type="_7nRAANYCEfCzhu297a63rw" association="_tTFnYNYQEfCzhu297a63rw"/>
+  </packagedElement>
+</uml:Model>
