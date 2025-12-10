@@ -53,7 +53,7 @@
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Component" xmi:id="_yW1LwLyuEfC1qqAFuWB3MA" name="event subsystem services">
-      <nestedClassifier xmi:type="uml:Interface" xmi:id="_iAqxYL_qEfCrVKdQ5EuJ9Q" name="IEventDetailAccess">
+      <nestedClassifier xmi:type="uml:Interface" xmi:id="_iAqxYL_qEfCrVKdQ5EuJ9Q" name="IStorage">
         <ownedComment xmi:type="uml:Comment" xmi:id="_Lg0OQL_sEfCrVKdQ5EuJ9Q" annotatedElement="_iAqxYL_qEfCrVKdQ5EuJ9Q">
           <body>DataBase&#xD;
 </body>
@@ -80,7 +80,7 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Component" xmi:id="_Vw1mQLyvEfC1qqAFuWB3MA" name="EventPromotionManagement" visibility="protected">
       <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_GAorwMADEfCTcItwilRpFQ" client="_Vw1mQLyvEfC1qqAFuWB3MA" supplier="_x8vVEMABEfCTcItwilRpFQ" contract="_x8vVEMABEfCTcItwilRpFQ"/>
-      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_CszmwNU8EfCxcoo16qbTiQ" client="_Vw1mQLyvEfC1qqAFuWB3MA" supplier="_h4nooL_qEfCrVKdQ5EuJ9Q" contract="_h4nooL_qEfCrVKdQ5EuJ9Q"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_CszmwNU8EfCxcoo16qbTiQ" client="_Vw1mQLyvEfC1qqAFuWB3MA" supplier="_iAqxYL_qEfCrVKdQ5EuJ9Q" contract="_iAqxYL_qEfCrVKdQ5EuJ9Q"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Component" xmi:id="_WpnBULyvEfC1qqAFuWB3MA" name="EventRegistrationManagment" visibility="protected">
       <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_oTLZ0MABEfCTcItwilRpFQ" client="_WpnBULyvEfC1qqAFuWB3MA" supplier="_fY1VAMABEfCTcItwilRpFQ" contract="_fY1VAMABEfCTcItwilRpFQ"/>
