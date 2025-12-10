@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_jMmrwMSaEfC8Uc72olI7_w" name="model" visibility="public">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_jQJvAMSaEfC8Uc72olI7_w">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ri5ZkMSgEfC8Uc72olI7_w" name="Event">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_rLfuQMrXEfC_h-xneu18fA" annotatedElement="_ri5ZkMSgEfC8Uc72olI7_w">
+      <body>Holds the details for the event &#xD;
+&#xD;
+</body>
+    </ownedComment>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_w0kSEMShEfC8Uc72olI7_w" name="name" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_X6KNgMSiEfC8Uc72olI7_w" name="theme" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_eDF6oMSiEfC8Uc72olI7_w" name="dateTime" visibility="private" type="_pKJ9IModEfCzDaHPWwr1aA"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_epwSAMSiEfC8Uc72olI7_w" name="connectionInfo" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YOU0wMSkEfC8Uc72olI7_w" name="LiteralInteger1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YOVb0MSkEfC8Uc72olI7_w" name="LiteralUnlimitedNatural1" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_f3dbQMSiEfC8Uc72olI7_w" name="EventId" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_gFTqAMSiEfC8Uc72olI7_w" name="Venue" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_gS5aEMSiEfC8Uc72olI7_w" name="plan" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sImx4MSkEfC8Uc72olI7_w" name="LiteralInteger1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sInY8MSkEfC8Uc72olI7_w" name="LiteralUnlimitedNatural1" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ggkCoMSiEfC8Uc72olI7_w" name="scope" visibility="private" type="_tSj74MrsEfC_h-xneu18fA"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_gvpngMSiEfC8Uc72olI7_w" name="promotionScope" visibility="private" type="_7zDw4MrsEfC_h-xneu18fA"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_g8FhAMSiEfC8Uc72olI7_w" name="participation" visibility="private" type="_ElQhYMV-EfC3a6fmf8TP6Q"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_dhBLgMSmEfC8Uc72olI7_w" name="materials" visibility="private" type="_Tm0hAMrtEfC_h-xneu18fA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_5BRT0MruEfC_h-xneu18fA" name="LiteralInteger1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5BTJAMruEfC_h-xneu18fA" name="LiteralUnlimitedNatural1" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_foue4MSmEfC8Uc72olI7_w" name="status" visibility="private" type="_9DYaAMrQEfC_h-xneu18fA"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_VrFf4MoeEfCzDaHPWwr1aA" name="starrating">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_nohV0MoeEfCzDaHPWwr1aA" name="LiteralInteger1" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nojyEMoeEfCzDaHPWwr1aA" name="LiteralUnlimitedNatural1" value="1"/>
+      <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_objVQMoeEfCzDaHPWwr1aA" name="LiteralInteger2"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_nFS80sr2EfC_h-xneu18fA" name="participationconstraints" type="_ElQhYMV-EfC3a6fmf8TP6Q" aggregation="composite" association="_nFRusMr2EfC_h-xneu18fA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qpk74Mr2EfC_h-xneu18fA" name="LiteralInteger1" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qpli8Mr2EfC_h-xneu18fA" name="LiteralUnlimitedNatural1" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_6o9wwsr2EfC_h-xneu18fA" name="promotionmaterial" type="_Fh03UMV-EfC3a6fmf8TP6Q" aggregation="shared" association="_6o77kMr2EfC_h-xneu18fA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6o9ww8r2EfC_h-xneu18fA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6o9wxMr2EfC_h-xneu18fA" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_vQUREMShEfC8Uc72olI7_w" name="updatedDetails">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_p8m9cMrQEfC_h-xneu18fA" name="data" type="_AC87wMrMEfC_h-xneu18fA"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_s83CYMrQEfC_h-xneu18fA" name="" type="_So5RQMrOEfC_h-xneu18fA" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_JuBssMSnEfC8Uc72olI7_w" name="changeStatus">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="__TxIQMrQEfC_h-xneu18fA" name="newStatus" type="_9DYaAMrQEfC_h-xneu18fA"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_HSNlgMrREfC_h-xneu18fA" name="" type="_So5RQMrOEfC_h-xneu18fA" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ucxAQMV9EfC3a6fmf8TP6Q" name="EventManagement">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_VkYJ8MrZEfC_h-xneu18fA" annotatedElement="_ucxAQMV9EfC3a6fmf8TP6Q">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_eEH9cMrZEfC_h-xneu18fA" annotatedElement="_VkYJ8MrZEfC_h-xneu18fA">
+        <body>chosen microservice, coordinates validation, storage and authorisation</body>
+      </ownedComment>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_thnmMMrZEfC_h-xneu18fA" annotatedElement="_ucxAQMV9EfC3a6fmf8TP6Q">
+      <body>chosen microservice logic coordinates validates, storage and autorisation&#xD;
+</body>
+    </ownedComment>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ucxAQcV9EfC3a6fmf8TP6Q" name="Name" visibility="private" aggregation="composite">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ucxAQsV9EfC3a6fmf8TP6Q" name="Theme" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ucxAQ8V9EfC3a6fmf8TP6Q" name="dateTime" visibility="private"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ucxARMV9EfC3a6fmf8TP6Q" name="connectionInfo" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ucxARcV9EfC3a6fmf8TP6Q" name="LiteralInteger1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ucxARsV9EfC3a6fmf8TP6Q" name="LiteralUnlimitedNatural1" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ucxAR8V9EfC3a6fmf8TP6Q" name="EventId" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ucxASMV9EfC3a6fmf8TP6Q" name="Venue" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ucxAScV9EfC3a6fmf8TP6Q" name="plan" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ucxASsV9EfC3a6fmf8TP6Q" name="LiteralInteger1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ucxAS8V9EfC3a6fmf8TP6Q" name="LiteralUnlimitedNatural1" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ucxATMV9EfC3a6fmf8TP6Q" name="scope" visibility="private" aggregation="composite"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ucxATcV9EfC3a6fmf8TP6Q" name="promotionScope" visibility="private"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ucxATsV9EfC3a6fmf8TP6Q" name="participation" visibility="private"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ucxAT8V9EfC3a6fmf8TP6Q" name="materials" visibility="private" aggregation="composite">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ucxAUMV9EfC3a6fmf8TP6Q" name="LiteralInteger1" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ucxAUcV9EfC3a6fmf8TP6Q" name="LiteralUnlimitedNatural1" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ucxAUsV9EfC3a6fmf8TP6Q" name="status" visibility="private"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_6zHR4MV9EfC3a6fmf8TP6Q" name="eventRepository" visibility="private" type="_H7QM0MV-EfC3a6fmf8TP6Q"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_7aJcsMV9EfC3a6fmf8TP6Q" name="Validator" visibility="private" type="_G4XMcMV-EfC3a6fmf8TP6Q"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_DNT_IcrxEfC_h-xneu18fA" name="eventrepository" type="_H7QM0MV-EfC3a6fmf8TP6Q" aggregation="composite" association="_DNPtsMrxEfC_h-xneu18fA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DNUmMMrxEfC_h-xneu18fA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DNVNQMrxEfC_h-xneu18fA" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_vcXSQsryEfC_h-xneu18fA" name="eventvalidator" type="_G4XMcMV-EfC3a6fmf8TP6Q" association="_vcWEIMryEfC_h-xneu18fA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Y_YLAMr2EfC_h-xneu18fA" name="LiteralInteger1" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Y_YLAcr2EfC_h-xneu18fA" name="LiteralUnlimitedNatural1" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_gt21csr9EfC_h-xneu18fA" name="event" type="_ri5ZkMSgEfC8Uc72olI7_w" association="_gt0ZMMr9EfC_h-xneu18fA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gt3cgMr9EfC_h-xneu18fA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gt3cgcr9EfC_h-xneu18fA" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_ucxAU8V9EfC3a6fmf8TP6Q" name="updatedDetails"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_ucxAVMV9EfC3a6fmf8TP6Q" name="Operation14"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_koh0sMrQEfC_h-xneu18fA" name="createEvent" concurrency="concurrent">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_koh0scrQEfC_h-xneu18fA" annotatedElement="_koh0sMrQEfC_h-xneu18fA">
+        <body>creates event,takes event data and then returns an event</body>
+      </ownedComment>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_koh0ssrQEfC_h-xneu18fA" name="data" type="_AC87wMrMEfC_h-xneu18fA"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_koh0s8rQEfC_h-xneu18fA" name="" type="_ri5ZkMSgEfC8Uc72olI7_w" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_koibwMrQEfC_h-xneu18fA" name="listEvent" visibility="public" concurrency="guarded">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_koibwcrQEfC_h-xneu18fA" name="Filter" type="_8aiLMMopEfCzDaHPWwr1aA"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_koibwsrQEfC_h-xneu18fA" name="" type="_ri5ZkMSgEfC8Uc72olI7_w" direction="return">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_koibw8rQEfC_h-xneu18fA" name="LiteralInteger1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_koibxMrQEfC_h-xneu18fA" name="LiteralUnlimitedNatural1" value="*"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_koibxcrQEfC_h-xneu18fA" name="CancelEvent" visibility="public">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_kojC0MrQEfC_h-xneu18fA" name="id">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_kojC0crQEfC_h-xneu18fA" name="" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_kojC0srQEfC_h-xneu18fA" name="getEvent">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_kojC08rQEfC_h-xneu18fA" name="id">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_kojC1MrQEfC_h-xneu18fA" name="" type="_ri5ZkMSgEfC8Uc72olI7_w" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_kojC1crQEfC_h-xneu18fA" name="updateEvent">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_kojC1srQEfC_h-xneu18fA" name="id">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_kojC18rQEfC_h-xneu18fA" name="data" type="_AC87wMrMEfC_h-xneu18fA"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_kojC2MrQEfC_h-xneu18fA" name="" type="_ri5ZkMSgEfC8Uc72olI7_w" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ElQhYMV-EfC3a6fmf8TP6Q" name="ParticipationConstraints">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_zB8GEMrXEfC_h-xneu18fA" annotatedElement="_ElQhYMV-EfC3a6fmf8TP6Q">
+      <body>stored participation rules and constraints which can be seen whne event mangament uploads&#xD;
+</body>
+    </ownedComment>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_WOOjMMV-EfC3a6fmf8TP6Q" name="registrationRequired">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_We8fwMV-EfC3a6fmf8TP6Q" name="TicketRequired">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_WwlpYMV-EfC3a6fmf8TP6Q" name="onlineTicketing">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Fh03UMV-EfC3a6fmf8TP6Q" name="PromotionMaterial">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_355TgMrXEfC_h-xneu18fA" annotatedElement="_Fh03UMV-EfC3a6fmf8TP6Q">
+      <body>the promotional asset for an event</body>
+    </ownedComment>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="__z-m4MWBEfC3a6fmf8TP6Q" name="MaterialId" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ABooYMWCEfC3a6fmf8TP6Q" name="type" visibility="private" type="_-GaBoMruEfC_h-xneu18fA"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_AO5oUMWCEfC3a6fmf8TP6Q" name="url" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ApFC4MWCEfC3a6fmf8TP6Q" name="description" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_QJSYQMrvEfC_h-xneu18fA" name="LiteralInteger1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QJTmYMrvEfC_h-xneu18fA" name="LiteralUnlimitedNatural1" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_G4XMcMV-EfC3a6fmf8TP6Q" name="EventValidator">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_HJC24MrbEfC_h-xneu18fA" annotatedElement="_G4XMcMV-EfC3a6fmf8TP6Q">
+      <body>checks event data is correct and rules are followed&#xD;
+</body>
+    </ownedComment>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_dmHZ8MWCEfC3a6fmf8TP6Q" name="validateForCreating">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_c62agMrUEfC_h-xneu18fA" name="data" type="_AC87wMrMEfC_h-xneu18fA"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_i0rUoMrUEfC_h-xneu18fA" name="" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_d6264MWCEfC3a6fmf8TP6Q" name="ValidateForUpdate">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_pcyREMrUEfC_h-xneu18fA" name="event" type="_ri5ZkMSgEfC8Uc72olI7_w"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_sUbMkMrUEfC_h-xneu18fA" name="data" type="_AC87wMrMEfC_h-xneu18fA"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_ty4HkMrUEfC_h-xneu18fA" name="" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_H7QM0MV-EfC3a6fmf8TP6Q" name="EventRepository">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_mVIU4MraEfC_h-xneu18fA" annotatedElement="_H7QM0MV-EfC3a6fmf8TP6Q">
+      <body>talks to istorage to save,load,update and delete events inside the database.</body>
+    </ownedComment>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_BqA7cMWCEfC3a6fmf8TP6Q" name="dataSource" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_AaYVwsr3EfC_h-xneu18fA" name="event" type="_ri5ZkMSgEfC8Uc72olI7_w" association="_AaXHoMr3EfC_h-xneu18fA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_AaY80Mr3EfC_h-xneu18fA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AaY80cr3EfC_h-xneu18fA" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Jjs0gMWCEfC3a6fmf8TP6Q" name="save">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_fJBpoMrREfC_h-xneu18fA" name="event" type="_ri5ZkMSgEfC8Uc72olI7_w"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_t8YJMMrREfC_h-xneu18fA" name="" type="_So5RQMrOEfC_h-xneu18fA" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_J8iyUMWCEfC3a6fmf8TP6Q" name="findByFilter">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_CFBAgMrUEfC_h-xneu18fA" name="filter" type="_8aiLMMopEfCzDaHPWwr1aA"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_GMPUkMrUEfC_h-xneu18fA" name="" type="_ri5ZkMSgEfC8Uc72olI7_w" direction="return">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_KWpfgMrUEfC_h-xneu18fA" name="LiteralInteger1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_KWqGkMrUEfC_h-xneu18fA" name="LiteralUnlimitedNatural1" value="*"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_KPGh8MWCEfC3a6fmf8TP6Q" name="delete">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_SF4cEMrUEfC_h-xneu18fA" name="id">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_UWUNoMrUEfC_h-xneu18fA" name="" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_KgkFYMWCEfC3a6fmf8TP6Q" name="findById">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_4120MMrREfC_h-xneu18fA" name="Id">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_ZG1y0MrTEfC_h-xneu18fA" name="" type="_ri5ZkMSgEfC8Uc72olI7_w" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_sYUjQMoSEfCzDaHPWwr1aA" name="IEventManagment">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_NvVLMMrXEfC_h-xneu18fA" annotatedElement="_sYUjQMoSEfCzDaHPWwr1aA">
+      <body>API to create,update,cancelling and retrieving the events </body>
+    </ownedComment>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_3IYMgMoSEfCzDaHPWwr1aA" name="createEvent" concurrency="concurrent">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_tXwLcMrMEfC_h-xneu18fA" annotatedElement="_3IYMgMoSEfCzDaHPWwr1aA">
+        <body>creates event,takes event data and then returns an event</body>
+      </ownedComment>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_DKoeYMrMEfC_h-xneu18fA" name="data" type="_AC87wMrMEfC_h-xneu18fA"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_Snw6wMrMEfC_h-xneu18fA" name="" type="_ri5ZkMSgEfC8Uc72olI7_w" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_bLaV4MoTEfCzDaHPWwr1aA" name="updateEvent">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_2EcOwMrMEfC_h-xneu18fA" name="id">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_OvBSIMrNEfC_h-xneu18fA" name="data" type="_AC87wMrMEfC_h-xneu18fA"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_alGIQMrNEfC_h-xneu18fA" name="" type="_ri5ZkMSgEfC8Uc72olI7_w" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_cSFDAMoTEfCzDaHPWwr1aA" name="CancelEvent" visibility="public">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_g_G-UMrNEfC_h-xneu18fA" name="id">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_j6WAYMrNEfC_h-xneu18fA" name="" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_cjYOYMoTEfCzDaHPWwr1aA" name="getEvent">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_pZoTkMrNEfC_h-xneu18fA" name="id">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_tYpG0MrNEfC_h-xneu18fA" name="" type="_ri5ZkMSgEfC8Uc72olI7_w" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_cyu5AMoTEfCzDaHPWwr1aA" name="listEvent" visibility="public" concurrency="guarded">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_-k80UMopEfCzDaHPWwr1aA" name="Filter" type="_8aiLMMopEfCzDaHPWwr1aA"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_Ca-t4MouEfCzDaHPWwr1aA" name="" type="_ri5ZkMSgEfC8Uc72olI7_w" direction="return">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_VnPHYMouEfCzDaHPWwr1aA" name="LiteralInteger1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VnPucMouEfCzDaHPWwr1aA" name="LiteralUnlimitedNatural1" value="*"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_qJsEUMoZEfCzDaHPWwr1aA" name="IAuthorizations">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_UsJzYMrXEfC_h-xneu18fA" annotatedElement="_qJsEUMoZEfCzDaHPWwr1aA">
+      <body>checks for peromission for each operation&#xD;
+</body>
+    </ownedComment>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_tUX3oMoZEfCzDaHPWwr1aA" name="CheckPermission" concurrency="guarded">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_sSKAIMouEfCzDaHPWwr1aA" name="userid">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3e2iEMouEfCzDaHPWwr1aA" name="LiteralInteger2" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3e6zgMouEfCzDaHPWwr1aA" name="LiteralUnlimitedNatural1" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_6djH0MouEfCzDaHPWwr1aA" name="LiteralString1" value="1"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_hosVkMrHEfC_h-xneu18fA" name="action">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_y4GA0MrHEfC_h-xneu18fA" name="" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_3IA78MoZEfCzDaHPWwr1aA" name="Istorage">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_dBjYEMrXEfC_h-xneu18fA" annotatedElement="_3IA78MoZEfCzDaHPWwr1aA">
+      <body>Storage interface to save and load events saved&#xD;
+&#xD;
+</body>
+    </ownedComment>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_3IBjAMoZEfCzDaHPWwr1aA" name="CheckPermission(userId: String, action : String) : Boolean"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_-P5koMoZEfCzDaHPWwr1aA" name="saveEvent">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_CJgtsMrOEfC_h-xneu18fA" name="event" type="_ri5ZkMSgEfC8Uc72olI7_w"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_Uy2nYMrOEfC_h-xneu18fA" name="" type="_So5RQMrOEfC_h-xneu18fA" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_-foCsMoZEfCzDaHPWwr1aA" name="loadEvent">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_G9n88MrOEfC_h-xneu18fA" name="id">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_qvOYEMrOEfC_h-xneu18fA" name="" type="_ri5ZkMSgEfC8Uc72olI7_w" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_-zh2IMoZEfCzDaHPWwr1aA" name="deleteEvent">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_s0uE8MrOEfC_h-xneu18fA" name="id">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_pWIBsMrPEfC_h-xneu18fA" name="" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_lKb_QModEfCzDaHPWwr1aA" name="DataType11"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_pKJ9IModEfCzDaHPWwr1aA" name="DateTime"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_8aiLMMopEfCzDaHPWwr1aA" name="EventFilter"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_AC87wMrMEfC_h-xneu18fA" name="EventData"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_So5RQMrOEfC_h-xneu18fA" name="void"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_9DYaAMrQEfC_h-xneu18fA" name="EventStatus"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_tSj74MrsEfC_h-xneu18fA" name="EventScope" visibility="public"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_7zDw4MrsEfC_h-xneu18fA" name="PromotionScope"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_FL36YMrtEfC_h-xneu18fA" name="ParcticipationConstraint" visibility="private"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_Tm0hAMrtEfC_h-xneu18fA" name="PromotionMaterial"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_-GaBoMruEfC_h-xneu18fA" name="MaterialType"/>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_QIxlcMrwEfC_h-xneu18fA" client="_ucxAQMV9EfC3a6fmf8TP6Q" supplier="_sYUjQMoSEfCzDaHPWwr1aA"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_DNPtsMrxEfC_h-xneu18fA" memberEnd="_DNT_IcrxEfC_h-xneu18fA _DNVNQcrxEfC_h-xneu18fA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DNTYEMrxEfC_h-xneu18fA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DNT_IMrxEfC_h-xneu18fA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_QJkaMMrxEfC_h-xneu18fA" annotatedElement="_DNPtsMrxEfC_h-xneu18fA">
+      <body>event managment owns whats inside repository</body>
+    </ownedComment>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_DNVNQcrxEfC_h-xneu18fA" name="eventmanagement" type="_ucxAQMV9EfC3a6fmf8TP6Q" association="_DNPtsMrxEfC_h-xneu18fA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_vcWEIMryEfC_h-xneu18fA" memberEnd="_vcXSQsryEfC_h-xneu18fA _vcYgYcryEfC_h-xneu18fA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_vcXSQMryEfC_h-xneu18fA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_vcXSQcryEfC_h-xneu18fA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_vcYgYcryEfC_h-xneu18fA" name="eventmanagement" type="_ucxAQMV9EfC3a6fmf8TP6Q" association="_vcWEIMryEfC_h-xneu18fA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_LROY8Mr2EfC_h-xneu18fA" client="_ucxAQMV9EfC3a6fmf8TP6Q" supplier="_qJsEUMoZEfCzDaHPWwr1aA"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_MH_B0Mr2EfC_h-xneu18fA" client="_ucxAQMV9EfC3a6fmf8TP6Q" supplier="_3IA78MoZEfCzDaHPWwr1aA"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_nFRusMr2EfC_h-xneu18fA" memberEnd="_nFS80sr2EfC_h-xneu18fA _nFTj4sr2EfC_h-xneu18fA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_nFS80Mr2EfC_h-xneu18fA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nFS80cr2EfC_h-xneu18fA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_nFTj4sr2EfC_h-xneu18fA" name="event" type="_ri5ZkMSgEfC8Uc72olI7_w" association="_nFRusMr2EfC_h-xneu18fA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_6o77kMr2EfC_h-xneu18fA" memberEnd="_6o9wwsr2EfC_h-xneu18fA _6o-X0Mr2EfC_h-xneu18fA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6o9wwMr2EfC_h-xneu18fA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6o9wwcr2EfC_h-xneu18fA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_6o-X0Mr2EfC_h-xneu18fA" name="event" type="_ri5ZkMSgEfC8Uc72olI7_w" association="_6o77kMr2EfC_h-xneu18fA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_AaXHoMr3EfC_h-xneu18fA" memberEnd="_AaYVwsr3EfC_h-xneu18fA _AaY80sr3EfC_h-xneu18fA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_AaYVwMr3EfC_h-xneu18fA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_AaYVwcr3EfC_h-xneu18fA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_AaY80sr3EfC_h-xneu18fA" name="eventrepository" type="_H7QM0MV-EfC3a6fmf8TP6Q" association="_AaXHoMr3EfC_h-xneu18fA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_gt0ZMMr9EfC_h-xneu18fA" memberEnd="_gt21csr9EfC_h-xneu18fA _gt3cgsr9EfC_h-xneu18fA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gt21cMr9EfC_h-xneu18fA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gt21ccr9EfC_h-xneu18fA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_gt3cgsr9EfC_h-xneu18fA" name="eventmanagement" type="_ucxAQMV9EfC3a6fmf8TP6Q" association="_gt0ZMMr9EfC_h-xneu18fA"/>
+  </packagedElement>
+</uml:Model>
