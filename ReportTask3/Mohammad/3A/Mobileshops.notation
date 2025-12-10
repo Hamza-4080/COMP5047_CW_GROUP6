@@ -303,7 +303,7 @@
     </children>
     <children xmi:type="notation:DecorationNode" xmi:id="_YqlCwrQYEfC4RMRvkJF2IQ" type="Extend_StereotypeLabel">
       <styles xmi:type="notation:BooleanValueStyle" xmi:id="_ZTe10LQYEfC4RMRvkJF2IQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_YqlCw7QYEfC4RMRvkJF2IQ" x="-1" y="-19"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_YqlCw7QYEfC4RMRvkJF2IQ" x="47" y="-4"/>
     </children>
     <styles xmi:type="notation:FontStyle" xmi:id="_YqkbsbQYEfC4RMRvkJF2IQ"/>
     <element xmi:type="uml:Extend" href="Mobileshops.uml#_YqbRwLQYEfC4RMRvkJF2IQ"/>
@@ -323,5 +323,18 @@
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_9y4yotUIEfCQ6MgYOfP0xA" points="[580, 305, -643984, -643984]$[480, 334, -643984, -643984]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9zNiwNUIEfCQ6MgYOfP0xA" id="(0.11049723756906077,0.8024691358024691)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9zNiwdUIEfCQ6MgYOfP0xA" id="(0.994475138121547,0.41975308641975306)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_aBBT4NXbEfCdm_G16WvfZg" type="Extend_Edge" source="_fqgd8KqDEfC8Bf0qa7LnCQ" target="_1GF1wKqDEfC8Bf0qa7LnCQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_aBB68NXbEfCdm_G16WvfZg" type="Extend_KeywordLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_aBB68dXbEfCdm_G16WvfZg" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_aBB68tXbEfCdm_G16WvfZg" type="Extend_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_aBB689XbEfCdm_G16WvfZg" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_aBBT4dXbEfCdm_G16WvfZg"/>
+    <element xmi:type="uml:Extend" href="Mobileshops.uml#_aAr8sNXbEfCdm_G16WvfZg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_aBBT4tXbEfCdm_G16WvfZg" points="[840, 255, -643984, -643984]$[720, 447, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_aBYgQNXbEfCdm_G16WvfZg" id="(0.2484472049689441,0.9259259259259259)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_aBYgQdXbEfCdm_G16WvfZg" id="(0.7960199004975125,0.08641975308641975)"/>
   </edges>
 </notation:Diagram>

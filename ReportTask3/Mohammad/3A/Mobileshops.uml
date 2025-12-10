@@ -21,7 +21,7 @@
     </ownedUseCase>
     <ownedUseCase xmi:type="uml:UseCase" xmi:id="_MGDm4KqDEfC8Bf0qa7LnCQ" name="set event &amp; promotion scope" subject="_uwaikKqCEfC8Bf0qa7LnCQ"/>
     <ownedUseCase xmi:type="uml:UseCase" xmi:id="_OHhvYKqDEfC8Bf0qa7LnCQ" name="upload promotion materials" subject="_uwaikKqCEfC8Bf0qa7LnCQ"/>
-    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_TqKRgKqDEfC8Bf0qa7LnCQ" name="Publish Event" subject="_uwaikKqCEfC8Bf0qa7LnCQ">
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_TqKRgKqDEfC8Bf0qa7LnCQ" name="Search Event" subject="_uwaikKqCEfC8Bf0qa7LnCQ">
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_VdV8AKqnEfC8Bf0qa7LnCQ" name="ExtensionPoint1"/>
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_bKRpoKqnEfC8Bf0qa7LnCQ" name="ExtensionPoint2"/>
       <include xmi:type="uml:Include" xmi:id="_q7R6ULQVEfC4RMRvkJF2IQ" addition="_1F3MQKqDEfC8Bf0qa7LnCQ"/>
@@ -29,8 +29,12 @@
     <ownedUseCase xmi:type="uml:UseCase" xmi:id="_aNolkKqDEfC8Bf0qa7LnCQ" name="cancel/postpone event" subject="_uwaikKqCEfC8Bf0qa7LnCQ">
       <extend xmi:type="uml:Extend" xmi:id="_YqbRwLQYEfC4RMRvkJF2IQ" extendedCase="_H4-icKqDEfC8Bf0qa7LnCQ" extensionLocation="_Yqb40LQYEfC4RMRvkJF2IQ"/>
     </ownedUseCase>
-    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_fqYiIKqDEfC8Bf0qa7LnCQ" name="view event engagement" subject="_uwaikKqCEfC8Bf0qa7LnCQ"/>
-    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_1F3MQKqDEfC8Bf0qa7LnCQ" name="index for search and subscription" subject="_uwaikKqCEfC8Bf0qa7LnCQ"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_fqYiIKqDEfC8Bf0qa7LnCQ" name="view event engagement" subject="_uwaikKqCEfC8Bf0qa7LnCQ">
+      <extend xmi:type="uml:Extend" xmi:id="_aAr8sNXbEfCdm_G16WvfZg" extendedCase="_1F3MQKqDEfC8Bf0qa7LnCQ" extensionLocation="_aAuY8NXbEfCdm_G16WvfZg"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_1F3MQKqDEfC8Bf0qa7LnCQ" name="index for search and subscription" subject="_uwaikKqCEfC8Bf0qa7LnCQ">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_aAuY8NXbEfCdm_G16WvfZg" name="ExtensionPoint1"/>
+    </ownedUseCase>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_mU8LQKqnEfC8Bf0qa7LnCQ" memberEnd="_mU_1oKqnEfC8Bf0qa7LnCQ _mVAcsKqnEfC8Bf0qa7LnCQ">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mU_OkKqnEfC8Bf0qa7LnCQ" source="org.eclipse.papyrus">
