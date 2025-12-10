@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_fFjkMMuoEfCiMv5S-LCYNw" name="5a - josh">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_fMWIsMuoEfCiMv5S-LCYNw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_JOpRIM6vEfCNLpfTcX_W7A" name="Booking">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_N-SQEM6vEfCNLpfTcX_W7A" name="registrationID" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_OGHWYM6vEfCNLpfTcX_W7A" name="eventID" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_OOi5oM6vEfCNLpfTcX_W7A" name="userID" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_OUIkQM6vEfCNLpfTcX_W7A" name="registrationDate" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDate"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_OZu18M6vEfCNLpfTcX_W7A" name="status" type="_OpOqINW4EfCiUYRKMZN2Fg" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_OfKIgM6vEfCNLpfTcX_W7A" name="ticketReference">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_reuPIM6vEfCNLpfTcX_W7A" name="paymentID">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_JppVcNXeEfCe9diWUfNImQ" name="book event" type="_b1TOkNXTEfCkyIkRtZxEag" aggregation="shared" association="_JpmSINXeEfCe9diWUfNImQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gcwZgNXhEfCe9diWUfNImQ" name="LiteralInteger1" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gcwZgdXhEfCe9diWUfNImQ" name="LiteralUnlimitedNatural1" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_RyIYINXhEfCe9diWUfNImQ" name="UserName">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_R3mG8NXhEfCe9diWUfNImQ" name="StudentEmail">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_PWKB8M6vEfCNLpfTcX_W7A" name="register"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_PbAFsM6vEfCNLpfTcX_W7A" name="cancel"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Pj7YMM6vEfCNLpfTcX_W7A" name="confirm"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_CJbFcM6wEfCNLpfTcX_W7A" name="event">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_G_A7YM6wEfCNLpfTcX_W7A" name="eventID" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_HFQtUM6wEfCNLpfTcX_W7A" name="title">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_HMmEYM6wEfCNLpfTcX_W7A" name="description" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_HSJSwM6wEfCNLpfTcX_W7A" name="eventTime" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDate"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_HYkq4M6wEfCNLpfTcX_W7A" name="venue" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_HfZEkM6wEfCNLpfTcX_W7A" name="maxCapacity" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_HlRDEM6wEfCNLpfTcX_W7A" name="isTicketed" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_HrmUkM6wEfCNLpfTcX_W7A" name="ticketPrice" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Hx4iwM6wEfCNLpfTcX_W7A" name="availablePlaces" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_7d4S8tXgEfCe9diWUfNImQ" name="book event" type="_b1TOkNXTEfCkyIkRtZxEag" association="_7d3r4NXgEfCe9diWUfNImQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_esNB4NXhEfCe9diWUfNImQ" name="LiteralInteger1" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_esO3ENXhEfCe9diWUfNImQ" name="LiteralUnlimitedNatural1" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_IEumQM6wEfCNLpfTcX_W7A" name="getEventDetails"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_IKEZQM6wEfCNLpfTcX_W7A" name="hasAvailablePlaces"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_IPLiwM6wEfCNLpfTcX_W7A" name="decreaseCapacity"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_IUcdQM6wEfCNLpfTcX_W7A" name="increaseCapacity"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_kA1PUM6xEfCNLpfTcX_W7A" name="registrationManager">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_n7S5wM6xEfCNLpfTcX_W7A" name="eventDetailFinder" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_oFNqwM6xEfCNLpfTcX_W7A" name="userProfile" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_oKsnsM6xEfCNLpfTcX_W7A" name="notifications" isUnique="false"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_stUBodXgEfCe9diWUfNImQ" name="book event" type="_b1TOkNXTEfCkyIkRtZxEag" association="_stSzgNXgEfCe9diWUfNImQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fssOgNXhEfCe9diWUfNImQ" name="LiteralInteger1" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fssOgdXhEfCe9diWUfNImQ" name="LiteralUnlimitedNatural1" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_oWVP8M6xEfCNLpfTcX_W7A" name="registerForEvent"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_obn_oM6xEfCNLpfTcX_W7A" name="cancelRegistration"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_ohCEEM6xEfCNLpfTcX_W7A" name="getRegistrationStatus"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_OpOqINW4EfCiUYRKMZN2Fg" name="EventRegistrationStatus">
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_PkeKYNW4EfCiUYRKMZN2Fg" name="PENDING"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_PoZoINW4EfCiUYRKMZN2Fg" name="CONFIRMED"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_PsZ-YNW4EfCiUYRKMZN2Fg" name="CANCELLED"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_PwTm8NW4EfCiUYRKMZN2Fg" name="BOOKED"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_b1TOkNXTEfCkyIkRtZxEag" name="Book event">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_bR_PsdXfEfCe9diWUfNImQ" name="booking " type="_iZ_CkNXeEfCe9diWUfNImQ" association="_bR-ooNXfEfCe9diWUfNImQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bR_PstXfEfCe9diWUfNImQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bR_2wNXfEfCe9diWUfNImQ" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_JpmSINXeEfCe9diWUfNImQ" memberEnd="_JppVcNXeEfCe9diWUfNImQ _Jpp8gtXeEfCe9diWUfNImQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JpouYNXeEfCe9diWUfNImQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JpouYdXeEfCe9diWUfNImQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Jpp8gtXeEfCe9diWUfNImQ" name="booking" type="_JOpRIM6vEfCNLpfTcX_W7A" association="_JpmSINXeEfCe9diWUfNImQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_frZ8cNXeEfCe9diWUfNImQ" client="_JOpRIM6vEfCNLpfTcX_W7A" supplier="_OpOqINW4EfCiUYRKMZN2Fg"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_iZ_CkNXeEfCe9diWUfNImQ" name="Booking ">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_wC5IQNXeEfCe9diWUfNImQ" name="eventID">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_wLse8NXeEfCe9diWUfNImQ" name="UserID">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_wWhO4NXeEfCe9diWUfNImQ" name="registrationData">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDate"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_wcukkNXeEfCe9diWUfNImQ" name="status" type="_OpOqINW4EfCiUYRKMZN2Fg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_wixiMNXeEfCe9diWUfNImQ" name="registrationID">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_OsUIoNXfEfCe9diWUfNImQ" name="confirm"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_jj-CENXhEfCe9diWUfNImQ" name="cancel"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_bR-ooNXfEfCe9diWUfNImQ" memberEnd="_bR_PsdXfEfCe9diWUfNImQ _bR_2wdXfEfCe9diWUfNImQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bR-oodXfEfCe9diWUfNImQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_bR_PsNXfEfCe9diWUfNImQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_bR_2wdXfEfCe9diWUfNImQ" name="book event" type="_b1TOkNXTEfCkyIkRtZxEag" association="_bR-ooNXfEfCe9diWUfNImQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_n_jHcNXfEfCe9diWUfNImQ" client="_iZ_CkNXeEfCe9diWUfNImQ" supplier="_OpOqINW4EfCiUYRKMZN2Fg"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_stSzgNXgEfCe9diWUfNImQ" visibility="package" memberEnd="_stUBodXgEfCe9diWUfNImQ _stUBpNXgEfCe9diWUfNImQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_stTakNXgEfCe9diWUfNImQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_stUBoNXgEfCe9diWUfNImQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_stUBpNXgEfCe9diWUfNImQ" name="registrationmanager" type="_kA1PUM6xEfCNLpfTcX_W7A" association="_stSzgNXgEfCe9diWUfNImQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_7d3r4NXgEfCe9diWUfNImQ" visibility="package" memberEnd="_7d4S8tXgEfCe9diWUfNImQ _7d46AtXgEfCe9diWUfNImQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7d4S8NXgEfCe9diWUfNImQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7d4S8dXgEfCe9diWUfNImQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7d46AtXgEfCe9diWUfNImQ" name="event" type="_CJbFcM6wEfCNLpfTcX_W7A" association="_7d3r4NXgEfCe9diWUfNImQ"/>
+  </packagedElement>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_J9a9wMuxEfCiMv5S-LCYNw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_J9eBEMuxEfCiMv5S-LCYNw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
+</uml:Model>
