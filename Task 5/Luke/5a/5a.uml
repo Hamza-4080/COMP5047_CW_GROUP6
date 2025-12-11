@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_awCuQNalEfCMEfWoycyz7A" name="5a">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_azwJkNalEfCMEfWoycyz7A">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_PrMEQNamEfCMEfWoycyz7A" name="CreateEventManager">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Q1fL0Na0EfCMEfWoycyz7A" name="eventvalidator" type="__sjrENaqEfCMEfWoycyz7A" association="_Q1Wo8Na0EfCMEfWoycyz7A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ZnhpMNa0EfCMEfWoycyz7A" name="LiteralInteger1" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZniQQNa0EfCMEfWoycyz7A" name="LiteralUnlimitedNatural1" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_c53jsNa0EfCMEfWoycyz7A" name="eventdatabase" type="_I_lDsNatEfCMEfWoycyz7A" association="_c52VkNa0EfCMEfWoycyz7A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gMpjENa0EfCMEfWoycyz7A" name="LiteralInteger1" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gMpjEda0EfCMEfWoycyz7A" name="LiteralUnlimitedNatural1" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_5RAi8Na1EfCMEfWoycyz7A" name="eventDB"/>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_HEsnMNa0EfCMEfWoycyz7A" client="_PrMEQNamEfCMEfWoycyz7A" supplier="_NTKLANaoEfCMEfWoycyz7A" contract="_NTKLANaoEfCMEfWoycyz7A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_NTKLANaoEfCMEfWoycyz7A" name="CreateEvent">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_UaQpMNarEfCMEfWoycyz7A" name="createEvent(eventInfo: String, leaderID: int): Boolean"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_lNxpsNarEfCMEfWoycyz7A" name="updateEvent(eventID: int, eventInfo: String): Boolean"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_SVnUENavEfCMEfWoycyz7A" name="deleteEvent(eventID: int): Boolean"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_WrV-MNavEfCMEfWoycyz7A" name="cancelEvent(eventID: int, reason: String): Boolean"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_bQ07kNavEfCMEfWoycyz7A" name="getEventDetails(eventID: int): String"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_pOBBcNaqEfCMEfWoycyz7A" name="EventSummary">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_g4qxANazEfCMEfWoycyz7A" name="title">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_keYTcNazEfCMEfWoycyz7A" name="description">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_n-m48NazEfCMEfWoycyz7A" name="LiteralInteger1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_n-tmoNazEfCMEfWoycyz7A" name="LiteralUnlimitedNatural1" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_plxrENazEfCMEfWoycyz7A" name="date">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_rP5DgNazEfCMEfWoycyz7A" name="time" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_voD9oNazEfCMEfWoycyz7A" name="venue" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_zJBi8NazEfCMEfWoycyz7A" name="maxCapacity">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="__sjrENaqEfCMEfWoycyz7A" name="EventValidator">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_BRC4cNayEfCMEfWoycyz7A" name="validateForCreate(data: EventData): Boolean"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_5sqPENazEfCMEfWoycyz7A" name="validateForUpdate(data: EventData): Boolean"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_I_lDsNatEfCMEfWoycyz7A" name="EventDatabase">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_iV5ZcNayEfCMEfWoycyz7A" name="dataSource">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_nXjqkda0EfCMEfWoycyz7A" name="event" type="_RhmSoNauEfCMEfWoycyz7A" association="_nXiccNa0EfCMEfWoycyz7A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_nXjqkta0EfCMEfWoycyz7A"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nXjqk9a0EfCMEfWoycyz7A" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_6lzaYNavEfCMEfWoycyz7A" name="storeEvent(eventInfo: String, leaderID: int): Boolean"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_9-SZINavEfCMEfWoycyz7A" name="updateEventField(eventID: int, field: String, value: String): Boolean"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_AybUsNawEfCMEfWoycyz7A" name="deleteEvent(eventID: int): Boolean"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_cW-j8NayEfCMEfWoycyz7A" name="loadEvent(eventID: int): Event"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_RhmSoNauEfCMEfWoycyz7A" name="Event">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Uo6-ANawEfCMEfWoycyz7A" name="eventID">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_EFCfgNaxEfCMEfWoycyz7A" name="eventName">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_J_YXANaxEfCMEfWoycyz7A" name="description">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_NFpkYNaxEfCMEfWoycyz7A" name="date">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_PwfaANaxEfCMEfWoycyz7A" name="time">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_R4N7gNaxEfCMEfWoycyz7A" name="venue">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Wjv2gNaxEfCMEfWoycyz7A" name="maxCapacity">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_R72hgta1EfCMEfWoycyz7A" name="eventdata" type="_pOBBcNaqEfCMEfWoycyz7A" association="_R71TYNa1EfCMEfWoycyz7A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_R72hg9a1EfCMEfWoycyz7A"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_R72hhNa1EfCMEfWoycyz7A" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_kIEXINaxEfCMEfWoycyz7A" name="create(info: String, leaderID: int): Boolean"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_nLHRYNaxEfCMEfWoycyz7A" name="update(info: String): Boolean"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_oyPnQNaxEfCMEfWoycyz7A" name="cancel(reason: String): Boolean"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Q1Wo8Na0EfCMEfWoycyz7A" memberEnd="_Q1fL0Na0EfCMEfWoycyz7A _Q1fy4Na0EfCMEfWoycyz7A">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Q1d9sNa0EfCMEfWoycyz7A" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Q1ekwNa0EfCMEfWoycyz7A" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Q1fy4Na0EfCMEfWoycyz7A" name="createeventmanager" type="_PrMEQNamEfCMEfWoycyz7A" association="_Q1Wo8Na0EfCMEfWoycyz7A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_c52VkNa0EfCMEfWoycyz7A" memberEnd="_c53jsNa0EfCMEfWoycyz7A _c53js9a0EfCMEfWoycyz7A">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_c528oNa0EfCMEfWoycyz7A" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_c528oda0EfCMEfWoycyz7A" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_c53js9a0EfCMEfWoycyz7A" name="createeventmanager" type="_PrMEQNamEfCMEfWoycyz7A" association="_c52VkNa0EfCMEfWoycyz7A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_nXiccNa0EfCMEfWoycyz7A" memberEnd="_nXjqkda0EfCMEfWoycyz7A _nXjqlNa0EfCMEfWoycyz7A">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_nXjDgNa0EfCMEfWoycyz7A" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nXjqkNa0EfCMEfWoycyz7A" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_nXjqlNa0EfCMEfWoycyz7A" name="eventdatabase" type="_I_lDsNatEfCMEfWoycyz7A" association="_nXiccNa0EfCMEfWoycyz7A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_0g6tgNa0EfCMEfWoycyz7A" client="__sjrENaqEfCMEfWoycyz7A" supplier="_RhmSoNauEfCMEfWoycyz7A"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_R71TYNa1EfCMEfWoycyz7A" memberEnd="_R72hgta1EfCMEfWoycyz7A _R73IkNa1EfCMEfWoycyz7A">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_R72hgNa1EfCMEfWoycyz7A" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_R72hgda1EfCMEfWoycyz7A" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_R73IkNa1EfCMEfWoycyz7A" name="event" type="_RhmSoNauEfCMEfWoycyz7A" association="_R71TYNa1EfCMEfWoycyz7A"/>
+  </packagedElement>
+</uml:Model>
