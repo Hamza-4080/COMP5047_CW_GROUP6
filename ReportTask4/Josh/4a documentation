@@ -1,0 +1,63 @@
+
+Component:	GUI
+Description: 	Handles the display of every interaction within the student app
+Stereotype:	Component
+Required interfaces:	none
+Provided interfaces:	Booking, payment, login and events list
+
+
+Component:	Cloud connection manager
+Description: 	This component handles authorisation within the app from the user
+Stereotype:	Component
+Required interfaces:	login
+Provided interfaces:	login
+
+
+Component:	Book event
+Description: 	This component runs within the app to handle the booking of students to events
+Stereotype:	Component
+Required interfaces:	Booking
+Provided interfaces:	Booking
+
+Component:	Find event
+Description: 	This component is used to find the events that have been searched by the user.
+Stereotype:	Component
+Required interfaces:	Event list
+Provided interfaces:	Event list
+
+Component:	payments
+Description: 	This component is used by the user to buy tickets that they are booking for 
+Stereotype:	Component 
+Required interfaces:	Payment
+Provided interfaces:	Process payment, verify payment
+
+
+Component:	Booking manager
+Description: 	This gives the necessary forms for the user to fill out to book onto the event
+Stereotype:	Component 
+Required interfaces:	booking
+Provided interfaces:	Authentication
+
+Component:	Payment manager
+Description: 	This component checks the payment that the user has sent 
+Stereotype:	Component 
+Required interfaces:	Process payment, verify payment
+Provided interfaces:	Authentication
+
+Component:	Event data
+Description: 	This component sends and receives the event data that the user is requesting or signing on to
+Stereotype:	Component 
+Required interfaces:	Find events
+Provided interfaces:	none
+
+Component:	Authentication
+Description: 	This is used by the subsystem for checking that the user is able to do the things that they are requesting, such as if they are eligible for the event they’re booking onto
+Stereotype:	Component 
+Required interfaces:	login
+Provided interfaces:	login
+
+Component:	Event database
+Description: 	This runs on the subsystem to handle the collection of users credentials that have booked onto the events and distribution of events for the purpose of booking onto them.
+Stereotype:	Database
+Required interfaces:	None
+Provided interfaces:	Event data
